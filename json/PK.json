@@ -1,0 +1,4872 @@
+[
+{
+"id": "PK-RP-001",
+"source": {
+"exam": "SBMPTN 2019/UTBK I",
+"year": 2019,
+"session": "I",
+"section": "PK/68",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2019/UTBK I/PK/68"
+},
+"content": {
+"question": "Rasio antara jumlah uang yang dimiliki oleh Agung, Budi, dan Citra adalah 2:3:5. Jika selisih antara jumlah uang Agung dan Budi adalah x rupiah, maka total jumlah uang Budi dan Citra adalah ... rupiah",
+"options": [
+"2x",
+"3x",
+"5x",
+"8x",
+"10x"
+],
+"answer": "8x",
+"explanation": "Selisih rasio Agung dan Budi adalah 1 bagian sehingga 1 bagian = x. Budi dan Citra berjumlah 3 + 5 = 8 bagian, sehingga totalnya 8x.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Ratio & Proportion",
+"subtopic": "Rasio",
+"skills": [
+"menafsirkan rasio",
+"menghubungkan bagian rasio dengan parameter"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"operasi aljabar dasar",
+"konsep rasio"
+]
+},
+"difficulty": {
+"overall": 2,
+"concept": 1,
+"reasoning": 2,
+"calculation": 1,
+"reading": 1,
+"time_pressure": 2
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "single_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 2,
+"requires_formula": false,
+"requires_comparison": true,
+"requires_inference": true,
+"common_trap": "Menggunakan rasio Agung:Budi:Citra secara langsung tanpa terlebih dahulu menentukan nilai satu bagian dari selisih Agung dan Budi."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "ratio_parameter_from_difference",
+"family": "ratio_parameter",
+"pattern": "Tiga entitas memiliki rasio tertentu; selisih dua entitas diberikan sebagai parameter; tentukan total atau kombinasi entitas lain.",
+"entities": [
+"tiga kuantitas",
+"parameter selisih",
+"total kuantitas"
+],
+"operations": [
+"selisih rasio",
+"penjumlahan bagian rasio",
+"perkalian dengan parameter"
+],
+"relationships": [
+"kuantitas berbanding sesuai rasio",
+"selisih dua kuantitas menjadi satuan skala"
+],
+"question_targets": [
+"total kuantitas",
+"kombinasi beberapa bagian rasio"
+],
+"constraints": [
+"rasio memiliki tiga bagian",
+"parameter merepresentasikan selisih dua bagian"
+],
+"difficulty_scaling": {
+"easy": "Rasio kecil dan langsung menentukan total.",
+"medium": "Lebih banyak entitas atau kombinasi bagian.",
+"hard": "Parameter diberikan melalui hubungan tidak langsung."
+},
+"distractor_strategy": [
+"menggunakan salah satu bagian rasio sebagai jawaban",
+"menjumlahkan rasio yang salah",
+"menggunakan selisih kuantitas sebagai total"
+]
+},
+"answer_logic": {
+"method": "Tentukan nilai satu bagian rasio dari selisih Agung dan Budi, lalu jumlahkan bagian Budi dan Citra.",
+"formula": "1 bagian = x; Budi + Citra = (3+5)x",
+"verification": [
+"Selisih rasio Agung dan Budi = 3-2 = 1.",
+"Budi dan Citra = 3+5 = 8 bagian."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.95
+},
+"tags": [
+"ratio",
+"proportion",
+"parameter",
+"quantitative_reasoning"
+]
+},
+
+
+{
+"id": "PK-RP-002",
+"source": {
+"exam": "SBMPTN 2019/UTBK I",
+"year": 2019,
+"session": "I",
+"section": "PK/75",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2019/UTBK I/PK/75"
+},
+"content": {
+"question": "Satu perkebunan sawit dengan luas 100 hectare dapat menghasilkan minyak sawit 6 ton. Setelah dilakukan penanaman kembali, produktivitas minyak sawit meningkat maksimal 0,08 ton setiap hectare.\nManakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?",
+"options": [
+"P > Q",
+"Q > P",
+"P = Q",
+"Informasi yang diberikan tidak cukup."
+],
+"answer": "P = Q",
+"explanation": "Produktivitas meningkat 0,08 ton per hektare pada 100 hektare, sehingga tambahan produksi maksimal adalah 8 ton. Produksi menjadi 14 ton, sama dengan P.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Ratio & Proportion",
+"subtopic": "Proporsi produktivitas",
+"skills": [
+"unit rate",
+"proportional reasoning",
+"quantity comparison"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"perkalian desimal",
+"perbandingan langsung"
+]
+},
+"difficulty": {
+"overall": 2,
+"concept": 2,
+"reasoning": 2,
+"calculation": 2,
+"reading": 2,
+"time_pressure": 2
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "comparison",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 2,
+"requires_formula": false,
+"requires_comparison": true,
+"requires_inference": true,
+"common_trap": "Mengalikan peningkatan produktivitas dengan produksi awal, bukan dengan luas perkebunan."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "proportional_productivity_comparison",
+"family": "unit_rate_quantity_comparison",
+"pattern": "Diberikan ukuran total dan produktivitas per unit, kemudian terjadi perubahan produktivitas dan hasil dibandingkan dengan kuantitas target.",
+"entities": [
+"luas atau jumlah unit",
+"produktivitas awal",
+"peningkatan produktivitas",
+"kuantitas target"
+],
+"operations": [
+"perkalian unit rate dengan jumlah unit",
+"penambahan hasil",
+"perbandingan"
+],
+"relationships": [
+"produksi = produktivitas × jumlah unit"
+],
+"question_targets": [
+"membandingkan hasil akhir dengan kuantitas target"
+],
+"constraints": [
+"jumlah unit tetap",
+"peningkatan produktivitas berlaku per unit"
+],
+"difficulty_scaling": {
+"easy": "Angka bulat dan perubahan langsung.",
+"medium": "Menggunakan desimal atau beberapa perubahan.",
+"hard": "Menyertakan batas maksimum atau informasi tidak langsung."
+},
+"distractor_strategy": [
+"menggunakan produksi awal",
+"mengabaikan perubahan produktivitas",
+"mengalikan parameter yang salah"
+]
+},
+"answer_logic": {
+"method": "Hitung produksi tambahan dari peningkatan per hektare, lalu bandingkan dengan P.",
+"formula": "Q = 100(6/100 + 0,08) = 14",
+"verification": [
+"Produksi awal = 6 ton.",
+"Tambahan produksi = 100 × 0,08 = 8 ton.",
+"Produksi akhir = 14 ton."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.95
+},
+"tags": [
+"proportion",
+"unit_rate",
+"productivity",
+"quantity_comparison"
+
+
+
+]
+},
+{
+"id": "PK-RP-003",
+"source": {
+"exam": "SBMPTN 2019/UTBK II",
+"year": 2019,
+"session": "II",
+"section": "PK/75",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2019/UTBK II/PK/75"
+},
+"content": {
+"question": "Dalam seminggu, seorang pekerja menerima upah sebesar Rp800.000,00. Dalam sehari, ia bekerja selama 5 jam. Penghasilan minimal yang diterima pekerja tersebut setiap jam adalah Rp40.000,00. Manakah hubungan yang benar antara kuantitas P dan Q berikut berdasarkan informasi yang diberikan?",
+"options": [
+"P > Q",
+"Q > P",
+"P = Q",
+"Informasi yang diberikan tidak cukup."
+],
+"answer": "P = Q",
+"explanation": "Dengan upah Rp800.000 dan minimal Rp40.000 per jam, maksimum jam kerja adalah 20 jam per minggu. Dengan 5 jam per hari, maksimum hari kerja adalah 4 hari.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Ratio & Proportion",
+"subtopic": "Unit rate",
+"skills": [
+"unit-rate reasoning",
+"proportional reasoning"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"pembagian",
+"konversi jam ke hari"
+]
+},
+"difficulty": {
+"overall": 2,
+"concept": 2,
+"reasoning": 2,
+"calculation": 2,
+"reading": 2,
+"time_pressure": 2
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": false,
+"requires_comparison": true,
+"requires_inference": true,
+"common_trap": "Menggunakan upah per hari secara langsung tanpa mengubahnya menjadi batas jam kerja."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "unit_rate_work_limit",
+"family": "rate_time_quantity",
+"pattern": "Diberikan total pembayaran, minimum rate per unit waktu, dan durasi per hari; tentukan maksimum jumlah hari atau unit waktu.",
+"entities": [
+"total pembayaran",
+"rate per jam",
+"jam per hari",
+"jumlah hari"
+],
+"operations": [
+"pembagian total dengan rate",
+"pembagian total waktu dengan waktu per hari"
+],
+"relationships": [
+"total pembayaran berbanding lurus dengan total jam kerja"
+],
+"question_targets": [
+"maksimum hari kerja",
+"maksimum jam kerja"
+],
+"constraints": [
+"rate per jam merupakan batas minimum",
+"jam kerja per hari tetap"
+],
+"difficulty_scaling": {
+"easy": "Satu konversi unit.",
+"medium": "Beberapa konversi waktu.",
+"hard": "Rate bertingkat atau batas tambahan."
+},
+"distractor_strategy": [
+"mengabaikan konversi waktu",
+"menggunakan rate harian",
+"menggunakan minimum rate sebagai jumlah pembayaran"
+]
+},
+"answer_logic": {
+"method": "Tentukan maksimum total jam dari total upah dan upah per jam, lalu bagi dengan jam per hari.",
+"formula": "hari = 800000 / 40000 / 5",
+"verification": [
+"Maksimum jam = 20.",
+"Maksimum hari = 4.",
+"P = Q."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.95
+},
+"tags": [
+"unit_rate",
+"work_rate",
+"proportion",
+"time"
+]
+},
+{
+"id": "PK-RP-004",
+"source": {
+"exam": "UTBK 2021/TPS/PK/Gel.1",
+"year": 2021,
+"session": "Gel.1",
+"section": "PK/Gel.1/07",
+"source_type": "source_book",
+"source_reference": "UTBK 2021/TPS/PK/Gel.1/07"
+},
+"content": {
+"question": "Seseorang berjalan sepanjang satu sisi sebuah pulau berbentuk persegi dengan sisi 2 kilometer. Orang tersebut menghitung kera di sekitarnya dengan jarak pandang berkisar 10-20 meter. Banyaknya kera yang berhasil dia lihat sepanjang perjalanan adalah 100 ekor. Di asumsikan banyaknya kera per kilometer persegi sama. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut yang benar?",
+"options": [
+"Kuantitas P lebih besar daripada Q.",
+"Kuantitas Q lebih besar daripada P.",
+"Kuantitas P sama dengan Q.",
+"Tidak dapat ditentukan hubungan antara kuantitas P dan Q."
+],
+"answer": "Tidak dapat ditentukan hubungan antara kuantitas P dan Q.",
+"explanation": "Jumlah kera yang terlihat bergantung pada lebar efektif area yang diamati, sedangkan jarak pandang hanya diberikan sebagai rentang 10–20 meter. Karena kepadatan sama tetapi jarak pandang tidak pasti, hubungan P dan Q tidak dapat ditentukan secara unik.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Ratio & Proportion",
+"subtopic": "Proporsi kepadatan",
+"skills": [
+"density reasoning",
+"proportional reasoning",
+"quantity comparison"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"luas persegi",
+"proporsi",
+"interpretasi batas"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 3,
+"reasoning": 4,
+"calculation": 2,
+"reading": 4,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "conditional_reasoning",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": false,
+"requires_comparison": true,
+"requires_inference": true,
+"common_trap": "Mengambil satu nilai jarak pandang dari rentang dan menganggapnya sebagai nilai pasti."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "density_range_comparison",
+"family": "density_uncertain_range",
+"pattern": "Diberikan kepadatan seragam, hasil pengamatan pada sebagian area, dan parameter pengamatan berupa rentang; tentukan hubungan dengan total populasi.",
+"entities": [
+"area total",
+"jalur pengamatan",
+"jarak pandang",
+"jumlah objek teramati",
+"populasi total"
+],
+"operations": [
+"menghubungkan kepadatan dengan luas",
+"menganalisis rentang parameter",
+"membandingkan kuantitas"
+],
+"relationships": [
+"jumlah objek sebanding dengan area yang diamati",
+"kepadatan diasumsikan seragam"
+],
+"question_targets": [
+"hubungan dua kuantitas",
+"kecukupan informasi"
+],
+"constraints": [
+"parameter pengamatan berada dalam rentang",
+"kepadatan seragam"
+],
+"difficulty_scaling": {
+"easy": "Jarak pengamatan pasti.",
+"medium": "Jarak diberikan sebagai rentang.",
+"hard": "Beberapa parameter tidak pasti."
+},
+"distractor_strategy": [
+"memilih batas bawah rentang",
+"memilih batas atas rentang",
+"menganggap hasil pengamatan sebagai populasi total"
+]
+},
+"answer_logic": {
+"method": "Tentukan apakah rentang jarak pandang cukup untuk menghasilkan satu nilai populasi yang pasti.",
+"formula": "",
+"verification": [
+"Jarak pandang tidak tunggal.",
+"Luas area pengamatan berubah mengikuti jarak pandang.",
+"Hubungan P dan Q tidak dapat ditentukan secara unik."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.94,
+"explanation_quality": 0.92
+},
+"tags": [
+"density",
+"proportion",
+"range",
+"insufficient_information"
+]
+},
+{
+"id": "PK-RP-005",
+"source": {
+"exam": "UTBK 2021/TPS/PK/Gel.2",
+"year": 2021,
+"session": "Gel.2",
+"section": "PK/Gel.2/24",
+"source_type": "source_book",
+"source_reference": "UTBK 2021/TPS/PK/Gel.2/24"
+},
+"content": {
+"question": "Sejumlah orang mengikuti upacara bendera di lapangan yang berukuran 100 meter × 50 meter. Peserta upacara menerapkan protokol COVID-19 dengan jarak antarorang minimal satu meter. Berdasarkan informasi yang diberikan, manakah hubungan antara kuantitas P dan Q berikut benar?",
+"options": [
+"Kualitas P lebih besar daripada Q.",
+"Kualitas Q lebih besar daripada P.",
+"Kualitas P sama dengan Q.",
+"Tidak dapat ditentukan hubungan antara kuantitas P dan Q."
+],
+"answer": "Kuantitas P lebih besar daripada Q.",
+"explanation": "Dengan jarak minimum satu meter, kapasitas maksimum secara grid pada luas 100 m × 50 m lebih besar daripada 6.000.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Ratio & Proportion",
+"subtopic": "Kepadatan dan luas",
+"skills": [
+"density reasoning",
+"area reasoning",
+"quantity comparison"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"luas persegi panjang",
+"perbandingan"
+]
+},
+"difficulty": {
+"overall": 3,
+"concept": 2,
+"reasoning": 3,
+"calculation": 2,
+"reading": 3,
+"time_pressure": 3
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "comparison",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 2,
+"requires_formula": false,
+"requires_comparison": true,
+"requires_inference": true,
+"common_trap": "Menggunakan luas 5.000 sebagai jumlah orang secara langsung tanpa mempertimbangkan jarak minimum."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "area_capacity_comparison",
+"family": "density_capacity",
+"pattern": "Diberikan luas area, jarak minimum antarobjek, dan kuantitas pembanding; tentukan hubungan kapasitas.",
+"entities": [
+"panjang area",
+"lebar area",
+"jarak minimum",
+"kapasitas",
+"nilai pembanding"
+],
+"operations": [
+"menghitung kapasitas berdasarkan luas dan jarak",
+"perbandingan"
+],
+"relationships": [
+"kapasitas meningkat seiring luas area",
+"jarak minimum membatasi kepadatan"
+],
+"question_targets": [
+"perbandingan kapasitas dengan nilai target"
+],
+"constraints": [
+"jarak minimum tetap"
+],
+"difficulty_scaling": {
+"easy": "Angka langsung dan satu dimensi.",
+"medium": "Dua dimensi area.",
+"hard": "Grid atau batas tepi diperhitungkan."
+},
+"distractor_strategy": [
+"menggunakan luas sebagai kapasitas",
+"mengabaikan jarak minimum",
+"menggunakan jarak sebagai luas"
+]
+},
+"answer_logic": {
+"method": "Hubungkan luas lapangan dengan kapasitas berdasarkan jarak minimum, kemudian bandingkan dengan 6.000.",
+"formula": "kapasitas berkaitan dengan (100/1) × (50/1)",
+"verification": [
+"Luas lapangan = 5.000 m².",
+"Jarak minimum membatasi kepadatan.",
+"Kapasitas melebihi 6.000."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.9,
+"explanation_quality": 0.88
+},
+"tags": [
+"density",
+"area",
+"capacity",
+"comparison"
+]
+},
+{
+"id": "PK-RP-006",
+"source": {
+"exam": "UTBK 2022/TPS/PK/H4",
+"year": 2022,
+"session": "",
+"section": "PK/H4/76",
+"source_type": "source_book",
+"source_reference": "UTBK 2022/TPS/PK/H4/76"
+},
+"content": {
+"question": "Dua pulau berdekatan digambarkan pada peta di atas. Dua kapal P dan Q sedang bersandar di pinggir pantai. Persegi pada peta berukuran 1cm × 1cm dan merepresentasikan luas 1km².\nBerapa banyak dari pernyataan berikut yang bernilai benar berdasarkan informasi di atas?\n\n(1) Skala peta adalah 1 : 1.000.000\n(2) Jarak dari kapal P ke kapal Q lebih dari 4km\n(3) Pulau besar lebih luas daripada 4 kali pulau kecil.\n(4) Jarak terdekat antara garis pantai kedua pulau kurang dari 1 km.",
+"options": [
+"0",
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "2",
+"explanation": "Pernyataan pada gambar dan skala peta digunakan untuk menentukan kebenaran masing-masing hubungan luas dan jarak.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Ratio & Proportion",
+"subtopic": "Skala dan perbandingan luas",
+"skills": [
+"scale reasoning",
+"area comparison",
+"distance comparison",
+"visual quantitative reasoning"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"skala",
+"luas",
+"jarak pada grid"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 3,
+"reasoning": 4,
+"calculation": 3,
+"reading": 3,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "spatial_reasoning",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": true
+},
+"cognitive": {
+"primary_skill": "spatial_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 4,
+"requires_formula": false,
+"requires_comparison": true,
+"requires_inference": true,
+"common_trap": "Membaca skala panjang sebagai skala luas atau salah menghitung banyak kotak pada peta."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "map_scale_multi_statement",
+"family": "scale_visual_comparison",
+"pattern": "Sebuah peta berbasis grid memberikan skala atau representasi luas, kemudian beberapa pernyataan tentang luas dan jarak harus dievaluasi.",
+"entities": [
+"peta",
+"grid",
+"dua wilayah",
+"dua titik",
+"pernyataan"
+],
+"operations": [
+"menghitung luas grid",
+"mengukur jarak grid",
+"membandingkan luas",
+"menghitung jumlah pernyataan benar"
+],
+"relationships": [
+"satu kotak peta merepresentasikan satu ukuran dunia nyata",
+"luas dan jarak memiliki hubungan berbeda dengan skala"
+],
+"question_targets": [
+"jumlah pernyataan benar"
+],
+"constraints": [
+"informasi visual menjadi sumber data",
+"setiap pernyataan harus diuji terpisah"
+],
+"difficulty_scaling": {
+"easy": "Satu pernyataan.",
+"medium": "Beberapa pernyataan luas/jarak.",
+"hard": "Pernyataan campuran skala, luas, dan jarak."
+},
+"distractor_strategy": [
+"salah membaca skala",
+"menggunakan luas untuk jarak",
+"salah menghitung grid"
+]
+},
+"answer_logic": {
+"method": "Evaluasi setiap pernyataan berdasarkan skala dan ukuran pada gambar, lalu hitung jumlah pernyataan benar.",
+"formula": "",
+"verification": [
+"Skala dibaca dari keterangan gambar.",
+"Luas dihitung dari jumlah kotak.",
+"Jarak dihitung dari posisi titik pada grid.",
+"Jumlah pernyataan benar = 2."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.9,
+"explanation_quality": 0.85
+},
+"tags": [
+"scale",
+"map",
+"area",
+"distance",
+"spatial_reasoning"
+]
+},
+{
+"id": "PK-PC-001",
+"source": {
+"exam": "SBMPTN 2019/UTBK II",
+"year": 2019,
+"session": "II",
+"section": "PK/68",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2019/UTBK II/PK/68"
+},
+"content": {
+"question": "Pembelian satu celana memperoleh diskon 30%, sedangkan satu baju memperoleh diskon 10%. Jika harga awal satu celana dan satu baju tersebut sama, yaitu p rupiah, maka jumlah uang yang harus dibayarkan untuk membeli satu celana dan satu baju adalah ... rupiah.",
+"options": [
+"2/3 p",
+"7/10 p",
+"9/10 p",
+"6/5 p",
+"8/5 p"
+],
+"answer": "9/10 p",
+"explanation": "Celana dibayar 70% dari p dan baju dibayar 90% dari p. Total pembayaran adalah 160% dari p.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Percentage",
+"subtopic": "Discount",
+"skills": [
+"percentage decrease",
+"discount calculation",
+"percentage aggregation"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"persentase dasar",
+"operasi aljabar"
+]
+},
+"difficulty": {
+"overall": 2,
+"concept": 2,
+"reasoning": 2,
+"calculation": 2,
+"reading": 2,
+"time_pressure": 2
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "single_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 2,
+"requires_formula": false,
+"requires_comparison": false,
+"requires_inference": false,
+"common_trap": "Menjumlahkan persentase diskon lalu menerapkannya pada total harga tanpa memperhatikan bahwa kedua barang memiliki harga awal yang sama."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "multiple_discount_same_base",
+"family": "percentage_discount",
+"pattern": "Dua barang memiliki harga awal sama, masing-masing mendapat diskon berbeda, lalu total pembayaran ditentukan.",
+"entities": [
+"harga awal",
+"barang pertama",
+"barang kedua",
+"persentase diskon"
+],
+"operations": [
+"mengubah diskon menjadi persentase pembayaran",
+"menjumlahkan harga setelah diskon"
+],
+"relationships": [
+"harga setelah diskon = harga awal × (1-diskon)"
+],
+"question_targets": [
+"total pembayaran sebagai fungsi harga awal"
+],
+"constraints": [
+"harga awal kedua barang sama"
+],
+"difficulty_scaling": {
+"easy": "Dua diskon sederhana.",
+"medium": "Tiga barang atau harga awal berbeda.",
+"hard": "Diskon bertingkat atau diskon diikuti pajak."
+},
+"distractor_strategy": [
+"menjumlahkan diskon secara langsung",
+"menggunakan harga setelah satu diskon",
+"menerapkan diskon terhadap total secara keliru"
+]
+},
+"answer_logic": {
+"method": "Hitung harga masing-masing setelah diskon lalu jumlahkan.",
+"formula": "0,70p + 0,90p = 1,60p",
+"verification": [
+"Diskon celana 30% berarti pembayaran 70%.",
+"Diskon baju 10% berarti pembayaran 90%.",
+"Total = 160% p."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.95
+},
+"tags": [
+"percentage",
+"discount",
+"percentage_decrease"
+]
+},
+{
+"id": "PK-EQ-001",
+"source": {
+"exam": "SBMPTN 2019/UTBK I",
+"year": 2019,
+"session": "I",
+"section": "PK/63",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2019/UTBK I/PK/63"
+},
+"content": {
+"question": "Jika x ≠ 1 dan x ≠ −3, maka hasil kali (2x−2)/(x+3) dan (9−x²)/(2−2x) senilai dengan ...",
+"options": [
+"3 + x",
+"3 − x",
+"x − 3",
+"x − 9",
+"9 − x"
+],
+"answer": "x − 3",
+"explanation": "Faktorkan pembilang dan penyebut, kemudian sederhanakan faktor yang sama dengan memperhatikan syarat x ≠ 1 dan x ≠ −3.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Aljabar",
+"skills": [
+"pemfaktoran",
+"penyederhanaan bentuk aljabar",
+"operasi pecahan aljabar"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"faktorisasi selisih kuadrat",
+"operasi pecahan aljabar"
+]
+},
+"difficulty": {
+"overall": 3,
+"concept": 3,
+"reasoning": 2,
+"calculation": 3,
+"reading": 2,
+"time_pressure": 3
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "single_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": false,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Salah memfaktorkan 9−x² atau mengabaikan syarat nilai x."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "algebraic_fraction_simplification",
+"family": "algebraic_simplification",
+"pattern": "Produk dua pecahan aljabar dengan faktor yang dapat difaktorkan dan syarat domain tertentu.",
+"entities": [
+"variabel",
+"pecahan aljabar",
+"faktor"
+],
+"operations": [
+"faktorisasi",
+"pencoretan faktor",
+"penyederhanaan"
+],
+"relationships": [
+"pembilang dan penyebut memiliki faktor yang sama"
+],
+"question_targets": [
+"bentuk aljabar ekuivalen"
+],
+"constraints": [
+"nilai yang membuat penyebut nol dikecualikan"
+],
+"difficulty_scaling": {
+"easy": "Faktor langsung terlihat.",
+"medium": "Memerlukan faktorisasi.",
+"hard": "Beberapa pecahan dan domain restrictions."
+},
+"distractor_strategy": [
+"kesalahan tanda",
+"faktorisasi salah",
+"mengabaikan domain"
+]
+},
+"answer_logic": {
+"method": "Faktorkan lalu sederhanakan faktor yang sama.",
+"formula": "(2x−2)/(x+3) × (9−x²)/(2−2x)",
+"verification": [
+"9−x² = (3−x)(3+x).",
+"2−2x = −2(x−1).",
+"2x−2 = 2(x−1)."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.94
+},
+"tags": [
+"algebra",
+"factorization",
+"rational_expression"
+]
+},
+{
+"id": "PK-EQ-002",
+"source": {
+"exam": "SNMPTN 2009/Dasar",
+"year": 2009,
+"session": "",
+"section": "385/10",
+"source_type": "source_book",
+"source_reference": "SNMPTN 2009/Dasar/385/10"
+},
+"content": {
+"question": "Jika sistem persamaan { px + qy = 8; 3x − qy = 38 } memiliki penyelesaian (x,y) = (2,4), maka nilai p adalah",
+"options": [
+"40",
+"22,5",
+"21,5",
+"20",
+"8"
+],
+"answer": "20",
+"explanation": "Substitusi x=2 dan y=4 ke persamaan pertama memberikan 2p+4q=8. Persamaan kedua memberikan 6−4q=38, sehingga q=−8 dan p=20.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Sistem Persamaan Linear",
+"skills": [
+"substitusi",
+"sistem persamaan linear",
+"menentukan parameter"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"persamaan linear",
+"substitusi"
+]
+},
+"difficulty": {
+"overall": 3,
+"concept": 2,
+"reasoning": 3,
+"calculation": 2,
+"reading": 2,
+"time_pressure": 3
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": false,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Substitusi hanya ke satu persamaan sehingga nilai p tidak dapat ditentukan."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "linear_system_known_solution",
+"family": "parameterized_linear_system",
+"pattern": "Sistem linear memiliki solusi tertentu; substitusi solusi digunakan untuk menentukan parameter.",
+"entities": [
+"dua variabel",
+"parameter",
+"sistem persamaan",
+"solusi diketahui"
+],
+"operations": [
+"substitusi",
+"eliminasi parameter",
+"perhitungan"
+],
+"relationships": [
+"pasangan solusi memenuhi setiap persamaan"
+],
+"question_targets": [
+"nilai parameter"
+],
+"constraints": [
+"solusi diberikan secara eksplisit"
+],
+"difficulty_scaling": {
+"easy": "Satu parameter.",
+"medium": "Dua parameter.",
+"hard": "Parameter muncul secara nonlinear."
+},
+"distractor_strategy": [
+"salah tanda",
+"hanya menggunakan satu persamaan",
+"tertukar nilai x dan y"
+]
+},
+"answer_logic": {
+"method": "Substitusikan pasangan solusi ke kedua persamaan untuk menentukan q lalu p.",
+"formula": "2p+4q=8; 6−4q=38",
+"verification": [
+"q = −8.",
+"p = 20.",
+"Pasangan (2,4) memenuhi kedua persamaan."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.95
+},
+"tags": [
+"linear_system",
+"parameter",
+"substitution"
+]
+},
+{
+"id": "PK-EQ-003",
+"source": {
+"exam": "SNMPTN 2010/Dasar",
+"year": 2010,
+"session": "",
+"section": "346/7",
+"source_type": "source_book",
+"source_reference": "SNMPTN 2010/Dasar/346/7"
+},
+"content": {
+"question": "Jika penyelesaian sistem persamaan {(a + 2)x + y = 0; x + (a + 2)y = 0} tidak hanya (x,y) = (0,0) saja, maka nilai a² + 4a + 19 = ...",
+"options": [
+"16",
+"9",
+"4",
+"1",
+"0"
+],
+"answer": "16",
+"explanation": "Agar sistem homogen memiliki solusi selain solusi trivial, determinannya harus nol. Kondisi tersebut menghasilkan a(a+4)=0, sehingga ekspresi yang ditanyakan bernilai 16.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Sistem Persamaan Linear",
+"skills": [
+"determinan sistem linear",
+"solusi nontrivial",
+"persamaan kuadrat"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"sistem persamaan linear",
+"determinan 2×2"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 4,
+"reasoning": 4,
+"calculation": 2,
+"reading": 2,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "logical_deduction",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "logical_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menganggap solusi nontrivial selalu ada tanpa mensyaratkan determinan nol."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "homogeneous_system_nontrivial",
+"family": "linear_system_condition",
+"pattern": "Sistem persamaan homogen memiliki solusi selain solusi trivial; kondisi tersebut digunakan untuk menentukan parameter.",
+"entities": [
+"dua variabel",
+"parameter",
+"sistem homogen"
+],
+"operations": [
+"membentuk determinan",
+"menetapkan determinan nol",
+"menyelesaikan persamaan parameter"
+],
+"relationships": [
+"solusi nontrivial terjadi ketika determinan matriks koefisien nol"
+],
+"question_targets": [
+"nilai ekspresi parameter"
+],
+"constraints": [
+"sistem homogen",
+"solusi nontrivial"
+],
+"difficulty_scaling": {
+"easy": "Parameter tunggal.",
+"medium": "Ekspresi parameter kompleks.",
+"hard": "Sistem lebih besar."
+},
+"distractor_strategy": [
+"menggunakan solusi trivial",
+"salah menentukan determinan",
+"salah menyelesaikan kuadrat"
+]
+},
+"answer_logic": {
+"method": "Gunakan syarat determinan nol untuk sistem homogen agar memiliki solusi nontrivial.",
+"formula": "(a+2)^2−1=0",
+"verification": [
+"a = −1 atau −3.",
+"Untuk keduanya, a²+4a+19 = 16."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.94
+},
+"tags": [
+"linear_system",
+"homogeneous_system",
+"nontrivial_solution",
+"parameter"
+]
+},
+{
+"id": "PK-EQ-004",
+"source": {
+"exam": "SNMPTN 2011/Dasar",
+"year": 2011,
+"session": "",
+"section": "127/7",
+"source_type": "source_book",
+"source_reference": "SNMPTN 2011/Dasar/127/7"
+},
+"content": {
+"question": "Riri membeli 3 buku, 1 pensil, dan 2 penghapus seharga Rp39.000,00. Agus membeli 1 buku, 2 pensil, 3 penghapus seharga Rp26.000,00. Harga 1 buku Rp5.000,00 lebih mahal daripada harga 1 pensil. Jika Dina membeli 2 buku, 4 pensil, dan 5 penghapus, maka dia harus membayar....",
+"options": [
+"Rp70.000,00",
+"Rp65.000,00",
+"Rp60.000,00",
+"Rp55.000,00",
+"Rp50.000,00"
+],
+"answer": "Rp50.000,00",
+"explanation": "Modelkan harga buku, pensil, dan penghapus sebagai tiga variabel. Gunakan tiga hubungan harga untuk memperoleh harga masing-masing, lalu hitung total pembelian Dina.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Sistem Persamaan Linear",
+"skills": [
+"pemodelan aljabar",
+"sistem persamaan linear",
+"aplikasi persamaan"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"persamaan linear",
+"eliminasi atau substitusi"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 3,
+"reasoning": 4,
+"calculation": 4,
+"reading": 3,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 4,
+"requires_formula": false,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Mencampur koefisien jumlah barang atau hanya menggunakan dua persamaan."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "shopping_linear_system",
+"family": "word_problem_linear_system",
+"pattern": "Beberapa pembelian menghasilkan persamaan harga dan satu relasi tambahan; total pembelian baru ditentukan.",
+"entities": [
+"jenis barang",
+"harga unit",
+"transaksi",
+"relasi harga"
+],
+"operations": [
+"membentuk sistem",
+"menyelesaikan variabel",
+"menghitung total"
+],
+"relationships": [
+"total transaksi = jumlah unit × harga unit"
+],
+"question_targets": [
+"total harga transaksi baru"
+],
+"constraints": [
+"harga unit konstan",
+"relasi harga tambahan tersedia"
+],
+"difficulty_scaling": {
+"easy": "Dua jenis barang.",
+"medium": "Tiga jenis barang.",
+"hard": "Lebih banyak transaksi dan relasi."
+},
+"distractor_strategy": [
+"salah menyusun koefisien",
+"salah menggunakan relasi harga",
+"menghitung total dengan variabel yang belum selesai"
+]
+},
+"answer_logic": {
+"method": "Bentuk sistem tiga persamaan harga, selesaikan harga unit, kemudian substitusikan jumlah pembelian Dina.",
+"formula": "",
+"verification": [
+"Tiga hubungan harga menentukan tiga harga unit.",
+"Harga unit digunakan untuk pembelian Dina.",
+"Total = Rp50.000,00."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.93
+},
+"tags": [
+"linear_system",
+"word_problem",
+"pricing",
+"modeling"
+]
+},
+{
+"id": "PK-EQ-005",
+"source": {
+"exam": "SBMPTN 2014/TKPA",
+"year": 2014,
+"session": "",
+"section": "693/12",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2014/TKPA/693/12"
+},
+"content": {
+"question": "Jika x + 2y = 2a + 1 dan 3x − y = a + p, maka 5x − 4y = ...",
+"options": [
+"2a + 2p − 1",
+"a + p − 1",
+"p − 1",
+"2p − 1",
+"2a − 1"
+],
+"answer": "2p − 1",
+"explanation": "Cari kombinasi linear kedua persamaan yang menghasilkan 5x−4y, kemudian substitusikan ruas kanan yang bersesuaian.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Sistem Persamaan Linear",
+"skills": [
+"kombinasi linear",
+"eliminasi",
+"transformasi persamaan"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"persamaan linear",
+"eliminasi"
+]
+},
+"difficulty": {
+"overall": 3,
+"concept": 3,
+"reasoning": 3,
+"calculation": 2,
+"reading": 2,
+"time_pressure": 3
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 2,
+"requires_formula": false,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menyelesaikan x dan y sepenuhnya padahal kombinasi linear dapat diperoleh langsung."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "linear_combination_target",
+"family": "linear_combination",
+"pattern": "Dua persamaan linear dengan parameter diberikan, kemudian diminta kombinasi linear tertentu dari variabel.",
+"entities": [
+"dua persamaan",
+"dua variabel",
+"parameter",
+"target linear combination"
+],
+"operations": [
+"mengalikan persamaan",
+"menjumlahkan atau mengurangkan persamaan"
+],
+"relationships": [
+"target merupakan kombinasi linear dari persamaan yang diberikan"
+],
+"question_targets": [
+"ekspresi parameter"
+],
+"constraints": [
+"koefisien target dapat diperoleh dari kombinasi persamaan"
+],
+"difficulty_scaling": {
+"easy": "Koefisien target langsung terlihat.",
+"medium": "Memerlukan pengalian.",
+"hard": "Parameter muncul di kedua ruas."
+},
+"distractor_strategy": [
+"menjumlahkan ruas kanan secara langsung",
+"salah tanda saat mengurangkan",
+"menyelesaikan variabel dengan kesalahan aritmetika"
+]
+},
+"answer_logic": {
+"method": "Temukan kombinasi linear persamaan yang menghasilkan 5x−4y.",
+"formula": "5x−4y = (x+2y) + 2(3x−y) − 2(x+2y)",
+"verification": [
+"Koefisien x dan y target harus cocok.",
+"Substitusi ruas kanan menghasilkan 2p−1."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.98,
+"explanation_quality": 0.94
+},
+"tags": [
+"linear_system",
+"elimination",
+"linear_combination",
+"parameter"
+]
+},
+{
+"id": "PK-EQ-006",
+"source": {
+"exam": "UTBK 2024/TPS/PK/H1",
+"year": 2024,
+"session": "",
+"section": "H1/04",
+"source_type": "source_book",
+"source_reference": "UTBK 2024/TPS/PK/H1/04"
+},
+"content": {
+"question": "Daerah S dari bidang kartesius adalah himpunan semua solusi dari sistem pertidaksamaan\n3x + y ≥ 3\n−2x + y ≤ −2\nx ≤ 5\nPernyataan mana saja yang bernilai benar berdasarkan informasi di atas?\n\n(1) Batas daerah S merupakan suatu segitiga.\n(2) Seluruh daerah S terletak di kuadran pertama dan keempat.\n(3) Garis y = −x memotong daerah S.\n(4) Titik (2,10) terletak di daerah S",
+"options": [
+"(1), (2), dan (3)",
+"(1) dan (3)",
+"(2) dan (4)",
+"(4)",
+"Semua Benar"
+],
+"answer": "[UNCLEAR]",
+"explanation": "[UNCLEAR]",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Aljabar dan pertidaksamaan linear",
+"skills": [
+"sistem pertidaksamaan",
+"interpretasi daerah solusi",
+"koordinat kartesius"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"pertidaksamaan linear",
+"grafik garis lurus",
+"kuadran"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 3,
+"reasoning": 4,
+"calculation": 3,
+"reading": 3,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "logical_deduction",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": true
+},
+"cognitive": {
+"primary_skill": "logical_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 4,
+"requires_formula": false,
+"requires_comparison": true,
+"requires_inference": true,
+"common_trap": "Menguji titik atau garis hanya terhadap satu pertidaksamaan."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "linear_inequality_region_statements",
+"family": "inequality_graph_analysis",
+"pattern": "Sistem pertidaksamaan menentukan suatu daerah pada bidang kartesius; beberapa klaim geometris/aljabar dievaluasi.",
+"entities": [
+"garis batas",
+"daerah solusi",
+"titik",
+"garis pembanding"
+],
+"operations": [
+"menentukan sisi garis",
+"menguji titik",
+"menganalisis irisan daerah"
+],
+"relationships": [
+"daerah solusi merupakan irisan himpunan solusi setiap pertidaksamaan"
+],
+"question_targets": [
+"kumpulan pernyataan benar"
+],
+"constraints": [
+"semua pertidaksamaan harus dipenuhi"
+],
+"difficulty_scaling": {
+"easy": "Dua pertidaksamaan.",
+"medium": "Tiga pertidaksamaan.",
+"hard": "Pernyataan geometris tambahan."
+},
+"distractor_strategy": [
+"menguji satu batas saja",
+"salah arah tanda pertidaksamaan",
+"salah menentukan kuadran"
+]
+},
+"answer_logic": {
+"method": "Analisis setiap pernyataan terhadap daerah solusi.",
+"formula": "",
+"verification": [
+"Setiap titik atau garis harus memenuhi seluruh sistem.",
+"Pernyataan dievaluasi secara independen."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.7,
+"explanation_quality": 0.7
+},
+"tags": [
+"inequality",
+"cartesian_plane",
+"solution_region",
+"statements"
+]
+},
+{
+"id": "PK-EQ-007",
+"source": {
+"exam": "UTBK 2024/TPS/PK/H1",
+"year": 2024,
+"session": "",
+"section": "H1/09",
+"source_type": "source_book",
+"source_reference": "UTBK 2024/TPS/PK/H1/09"
+},
+"content": {
+"question": "Garis l melalui titik B pada persegi ABCD dan tegak lurus terhadap diagonal BD. Persamaan garis l adalah",
+"options": [
+"y = −x + 5",
+"y = x + 10",
+"y = −x − 10",
+"y = x − 10",
+"y = −x + 10"
+],
+"answer": "[UNCLEAR]",
+"explanation": "[UNCLEAR]",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Persamaan Garis Lurus",
+"skills": [
+"gradien",
+"garis tegak lurus",
+"persamaan garis"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"gradien",
+"persamaan garis lurus"
+]
+},
+"difficulty": {
+"overall": 3,
+"concept": 3,
+"reasoning": 3,
+"calculation": 2,
+"reading": 2,
+"time_pressure": 3
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "spatial_reasoning",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": true
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menggunakan gradien diagonal, bukan gradien garis yang tegak lurus terhadap diagonal."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "perpendicular_line_from_square",
+"family": "line_equation_geometry",
+"pattern": "Diberikan titik pada bangun geometri dan hubungan tegak lurus terhadap suatu diagonal/garis; tentukan persamaan garis.",
+"entities": [
+"titik",
+"diagonal",
+"garis target",
+"bangun geometri"
+],
+"operations": [
+"menentukan gradien",
+"mengambil gradien tegak lurus",
+"menggunakan titik"
+],
+"relationships": [
+"hasil kali gradien garis tegak lurus = −1"
+],
+"question_targets": [
+"persamaan garis"
+],
+"constraints": [
+"garis melalui titik tertentu",
+"garis tegak lurus terhadap diagonal"
+],
+"difficulty_scaling": {
+"easy": "Koordinat titik dan gradien langsung.",
+"medium": "Gradien diperoleh dari diagonal.",
+"hard": "Bangun geometri menentukan koordinat."
+},
+"distractor_strategy": [
+"menggunakan gradien yang sama",
+"salah tanda",
+"salah substitusi titik"
+]
+},
+"answer_logic": {
+"method": "Tentukan gradien diagonal, ambil gradien tegak lurus, kemudian gunakan titik B.",
+"formula": "m1 × m2 = −1",
+"verification": [
+"Garis harus melalui B.",
+"Garis harus tegak lurus BD."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.7,
+"explanation_quality": 0.75
+},
+"tags": [
+"straight_line",
+"gradient",
+"perpendicular",
+"geometry"
+]
+},
+{
+"id": "PK-EQ-008",
+"source": {
+"exam": "UTBK 2024/TPS/PK",
+"year": 2024,
+"session": "Gel.1",
+"section": "09",
+"source_type": "source_book",
+"source_reference": "UTBK 2024/TPS/PK/gel.1/09"
+},
+"content": {
+"question": "Jajar genjang PQRS memiliki luas 20. Jika T terletak pada QR sehingga ST tegak lurus terhadap QR.\nGradien SR adalah",
+"options": [
+"−1/5",
+"1/5",
+"5",
+"−5",
+"tidak terdefinisi"
+],
+"answer": "[UNCLEAR]",
+"explanation": "[UNCLEAR]",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Persamaan Garis Lurus",
+"skills": [
+"gradien",
+"hubungan garis tegak lurus",
+"geometri koordinat"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"gradien",
+"garis tegak lurus"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 4,
+"reasoning": 4,
+"calculation": 2,
+"reading": 3,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "spatial_reasoning",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": true
+},
+"cognitive": {
+"primary_skill": "spatial_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menggunakan hubungan tegak lurus pada sisi yang salah."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "parallelogram_gradient",
+"family": "coordinate_geometry_gradient",
+"pattern": "Bangun geometri pada bidang koordinat memberikan hubungan tegak lurus dan posisi titik; tentukan gradien suatu sisi.",
+"entities": [
+"jajar genjang",
+"sisi",
+"garis tegak lurus",
+"titik"
+],
+"operations": [
+"menentukan gradien",
+"menggunakan hubungan tegak lurus"
+],
+"relationships": [
+"sisi berhadapan sejajar",
+"garis yang tegak lurus memiliki gradien negatif kebalikan"
+],
+"question_targets": [
+"gradien sisi"
+],
+"constraints": [
+"informasi geometri menentukan gradien"
+],
+"difficulty_scaling": {
+"easy": "Koordinat langsung tersedia.",
+"medium": "Sebagian koordinat harus diturunkan.",
+"hard": "Luas dan tegak lurus harus digabungkan."
+},
+"distractor_strategy": [
+"menggunakan gradien kebalikan tanpa tanda negatif",
+"menggunakan gradien sisi paralel",
+"menganggap garis vertikal/horizontal secara salah"
+]
+},
+"answer_logic": {
+"method": "Gunakan hubungan geometris pada gambar dan hubungan gradien garis tegak lurus.",
+"formula": "m1m2 = −1",
+"verification": [
+"Identifikasi sisi yang tegak lurus terhadap ST.",
+"Gunakan relasi gradien."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.7,
+"explanation_quality": 0.75
+},
+"tags": [
+"straight_line",
+"gradient",
+"parallelogram",
+"perpendicular"
+]
+},
+{
+"id": "PK-EQ-009",
+"source": {
+"exam": "UTBK 2024/TPS/PK",
+"year": 2024,
+"session": "Gel.1",
+"section": "10",
+"source_type": "source_book",
+"source_reference": "UTBK 2024/TPS/PK/gel.1/10"
+},
+"content": {
+"question": "Jajar genjang PQRS memiliki luas 20. Jika T terletak pada QR sehingga ST tegak lurus terhadap QR.\nPersamaan garis yang melalui S dan tegak lurus PQ adalah ...",
+"options": [
+"4x + 5y = 37",
+"4y − x = 13",
+"5y − x = 22",
+"x + 5y = 28",
+"x + 4y = 19"
+],
+"answer": "[UNCLEAR]",
+"explanation": "[UNCLEAR]",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Persamaan Garis Lurus",
+"skills": [
+"persamaan garis",
+"gradien garis tegak lurus",
+"geometri koordinat"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"gradien",
+"persamaan garis"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 4,
+"reasoning": 4,
+"calculation": 3,
+"reading": 3,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": true
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 4,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menentukan gradien garis PQ secara salah atau tidak menggunakan titik S."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "perpendicular_line_equation",
+"family": "coordinate_line_equation",
+"pattern": "Diberikan sebuah garis atau sisi pada bangun geometri dan titik S; tentukan persamaan garis melalui S yang tegak lurus terhadap garis tersebut.",
+"entities": [
+"titik",
+"garis PQ",
+"garis target"
+],
+"operations": [
+"menentukan gradien",
+"membentuk gradien tegak lurus",
+"substitusi titik"
+],
+"relationships": [
+"garis target tegak lurus PQ"
+],
+"question_targets": [
+"persamaan garis"
+],
+"constraints": [
+"garis target harus melalui S"
+],
+"difficulty_scaling": {
+"easy": "Koordinat dan gradien langsung.",
+"medium": "Gradien diperoleh dari geometri.",
+"hard": "Beberapa hubungan geometri diperlukan."
+},
+"distractor_strategy": [
+"gradien sejajar",
+"tanda gradien terbalik",
+"salah konstanta"
+]
+},
+"answer_logic": {
+"method": "Tentukan gradien PQ, gunakan gradien tegak lurus, lalu substitusikan koordinat S.",
+"formula": "m_target = −1/m_PQ",
+"verification": [
+"Garis harus melalui S.",
+"Garis target harus tegak lurus PQ."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.7,
+"explanation_quality": 0.75
+},
+"tags": [
+"straight_line",
+"gradient",
+"perpendicular",
+"line_equation"
+]
+},
+{
+"id": "PK-EQ-010",
+"source": {
+"exam": "UTBK 2021/SAINTEK/MTK IPA",
+"year": 2021,
+"session": "Gel.2",
+"section": "32",
+"source_type": "source_book",
+"source_reference": "UTBK 2021/SAINTEK/MTK IPA/GEL.2/32"
+},
+"content": {
+"question": "Jika sistem persamaan { x² + y = 4; −2x + y = 1 } memiliki penyelesaian (a,b) dengan a < 0, maka 2a − b = ...",
+"options": [
+"−11",
+"−10",
+"−7",
+"−5",
+"−1"
+],
+"answer": "−1",
+"explanation": "Substitusi persamaan linear ke persamaan kuadrat menghasilkan dua kemungkinan x. Syarat a<0 memilih akar negatif, kemudian nilai b diperoleh dari persamaan linear.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Sistem Persamaan dan Persamaan Kuadrat",
+"skills": [
+"substitusi",
+"persamaan kuadrat",
+"pemilihan solusi berdasarkan kondisi"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"persamaan kuadrat",
+"persamaan linear"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 4,
+"reasoning": 4,
+"calculation": 3,
+"reading": 2,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "conditional_reasoning",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 4,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Memilih akar persamaan kuadrat tanpa menggunakan syarat a<0."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "mixed_linear_quadratic_system",
+"family": "system_linear_quadratic",
+"pattern": "Sistem terdiri dari persamaan kuadrat dan linear; kondisi pada salah satu variabel memilih satu solusi.",
+"entities": [
+"variabel",
+"persamaan kuadrat",
+"persamaan linear",
+"kondisi akar"
+],
+"operations": [
+"substitusi",
+"menyelesaikan kuadrat",
+"memilih akar",
+"menghitung ekspresi target"
+],
+"relationships": [
+"pasangan solusi memenuhi kedua persamaan"
+],
+"question_targets": [
+"ekspresi pada solusi tertentu"
+],
+"constraints": [
+"salah satu variabel diberi batas tanda"
+],
+"difficulty_scaling": {
+"easy": "Kuadrat menghasilkan akar sederhana.",
+"medium": "Kondisi memilih satu akar.",
+"hard": "Target merupakan kombinasi variabel."
+},
+"distractor_strategy": [
+"memilih akar positif",
+"salah substitusi",
+"salah menghitung ekspresi target"
+]
+},
+"answer_logic": {
+"method": "Substitusi persamaan linear ke kuadrat, pilih solusi dengan a<0, lalu hitung 2a−b.",
+"formula": "",
+"verification": [
+"Sistem menghasilkan dua kemungkinan nilai x.",
+"Kondisi a<0 memilih satu solusi.",
+"Ekspresi target bernilai −1."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.94
+},
+"tags": [
+"system_of_equations",
+"quadratic",
+"linear",
+"conditional_solution"
+]
+},
+{
+"id": "PK-EQ-011",
+"source": {
+"exam": "UTBK 2022/TPS/PK",
+"year": 2022,
+"session": "",
+"section": "78",
+"source_type": "source_book",
+"source_reference": "UTBK 2022/TPS/PK/78"
+},
+"content": {
+"question": "Apakah sistem persamaan linier { x + ay = b; (a + 1)x + 2y = 3 } tidak memiliki solusi untuk x dan y?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut.\n\n(1) a² + a − 2 = 0\n(2) |a − b| = 3",
+"options": [
+"Pernyataan (1) SAJA cukup.",
+"Pernyataan (2) SAJA cukup.",
+"Pernyataan (1) dan (2) cukup.",
+"Pernyataan (1) SAJA atau (2) SAJA cukup.",
+"Kedua Informasi TIDAK cukup."
+],
+"answer": "[UNCLEAR]",
+"explanation": "[UNCLEAR]",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Sistem Persamaan Linear",
+"skills": [
+"kecukupan informasi",
+"kondisi sistem linear",
+"parameter"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"sistem persamaan linear",
+"persamaan kuadrat",
+"kecukupan informasi"
+]
+},
+"difficulty": {
+"overall": 5,
+"concept": 4,
+"reasoning": 5,
+"calculation": 3,
+"reading": 4,
+"time_pressure": 5
+},
+"question_type": {
+"format": "complex_multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "conditional_reasoning",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "logical_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 5,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menganggap determinan nol otomatis berarti tidak ada solusi tanpa memeriksa ruas kanan."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "linear_system_sufficiency",
+"family": "data_sufficiency_linear_system",
+"pattern": "Sistem linear dengan parameter disertai dua informasi tambahan; tentukan apakah informasi cukup untuk mengetahui sifat solusi.",
+"entities": [
+"sistem linear",
+"parameter",
+"dua kondisi tambahan",
+"sifat solusi"
+],
+"operations": [
+"menganalisis determinan",
+"menguji konsistensi",
+"membandingkan kecukupan informasi"
+],
+"relationships": [
+"tidak ada solusi memerlukan koefisien dan konstanta memenuhi kondisi tertentu"
+],
+"question_targets": [
+"kecukupan pernyataan"
+],
+"constraints": [
+"setiap pernyataan diuji sendiri dan bersama-sama"
+],
+"difficulty_scaling": {
+"easy": "Satu parameter dan kondisi langsung.",
+"medium": "Dua kondisi.",
+"hard": "Kondisi absolut atau nonlinear."
+},
+"distractor_strategy": [
+"menganggap determinan nol cukup",
+"menggabungkan pernyataan terlalu cepat",
+"mengabaikan kasus parameter"
+]
+},
+"answer_logic": {
+"method": "Analisis kondisi tidak adanya solusi dan uji masing-masing informasi.",
+"formula": "Untuk sistem 2×2, koefisien yang proporsional harus menghasilkan ruas kanan yang tidak proporsional untuk tidak memiliki solusi.",
+"verification": [
+"Uji pernyataan (1) secara mandiri.",
+"Uji pernyataan (2) secara mandiri.",
+"Uji kombinasi bila diperlukan."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.75,
+"explanation_quality": 0.75
+},
+"tags": [
+"linear_system",
+"data_sufficiency",
+"parameter",
+"conditional_reasoning"
+]
+},
+{
+"id": "PK-EQ-012",
+"source": {
+"exam": "UTBK 2024/TPS/PK",
+"year": 2024,
+"session": "Gel.1",
+"section": "02",
+"source_type": "source_book",
+"source_reference": "UTBK 2024/TPS/PK/gel.1/02"
+},
+"content": {
+"question": "Jarak horizontal sembarang titik (x₀,y₀) ke garis l: x = ay + b didefinisikan sebagai |x₀ − (ay₀ + b)|. Sebagai contoh, jarak horizontal titik A dan B ke garis l pada gambar di atas berturut-turut adalah 4 dan 5. Jika A dan B adalah titik-titik pada garis p pada gambar di atas berturut-turut adalah (5,−1), (−4,5), dan (6,8) ke garis m: x = 1/3 y − 2/3 adalah",
+"options": [
+"1",
+"3",
+"5",
+"7",
+"9"
+],
+"answer": "5",
+"explanation": "Hitung jarak horizontal masing-masing titik ke garis m menggunakan definisi yang diberikan, lalu ambil rata-ratanya.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Equation",
+"subtopic": "Persamaan Garis Lurus",
+"skills": [
+"evaluasi persamaan garis",
+"nilai mutlak",
+"rata-rata"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"persamaan garis",
+"nilai mutlak",
+"rata-rata"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 3,
+"reasoning": 4,
+"calculation": 3,
+"reading": 3,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "data_interpretation",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": true
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 4,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": false,
+"common_trap": "Menggunakan jarak Euclidean, bukan definisi jarak horizontal yang diberikan."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "horizontal_distance_line",
+"family": "custom_distance_to_line",
+"pattern": "Definisi jarak khusus terhadap garis diberikan; beberapa titik diuji dan hasilnya diringkas.",
+"entities": [
+"garis",
+"titik",
+"definisi jarak",
+"rata-rata"
+],
+"operations": [
+"substitusi koordinat",
+"nilai mutlak",
+"rata-rata"
+],
+"relationships": [
+"jarak horizontal didefinisikan oleh selisih koordinat x"
+],
+"question_targets": [
+"rata-rata jarak"
+],
+"constraints": [
+"gunakan definisi jarak yang diberikan, bukan rumus jarak standar"
+],
+"difficulty_scaling": {
+"easy": "Satu titik.",
+"medium": "Beberapa titik.",
+"hard": "Rata-rata atau statistik lain."
+},
+"distractor_strategy": [
+"menggunakan rumus jarak titik-garis standar",
+"salah tanda nilai mutlak",
+"salah menghitung rata-rata"
+]
+},
+"answer_logic": {
+"method": "Substitusikan setiap titik ke definisi jarak horizontal lalu hitung rata-rata.",
+"formula": "|x₀−(ay₀+b)|",
+"verification": [
+"Hitung tiga jarak sesuai definisi.",
+"Jumlahkan dan bagi tiga.",
+"Hasil = 5."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.85,
+"explanation_quality": 0.8
+},
+"tags": [
+"straight_line",
+"absolute_value",
+"distance",
+"coordinate_geometry"
+]
+},
+{
+"id": "PK-SQ-001",
+"source": {
+"exam": "UTBK 2024/TPS/PK/gel.1",
+"year": 2024,
+"session": "Gel.1",
+"section": "11",
+"source_type": "source_book",
+"source_reference": "UTBK 2024/TPS/PK/gel.1/11"
+},
+"content": {
+"question": "Barisan bilangan real a₁,a₂,... memenuhi aₙ₊₁ = 2 − 5aₙ untuk setiap bilangan asli n dan a₁ = −8. Berapakah banyaknya dari empat pernyataan berikut yang bernilai benar berdasarkan informasi di atas?\n\n(1) a₃ merupakan bilangan bulat.\n(2) a₃ = −38\n(3) a₂₀₂₄ merupakan bilangan negatif\n(4) a₄₂₀ − a₂₀ merupakan bilangan kelipatan 5.",
+"options": [
+"0",
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "[UNCLEAR]",
+"explanation": "[UNCLEAR]",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan rekursif",
+"skills": [
+"rekurensi",
+"pola barisan",
+"analisis sifat suku"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"operasi aljabar",
+"barisan"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 4,
+"reasoning": 5,
+"calculation": 3,
+"reading": 3,
+"time_pressure": 5
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "logical_deduction",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "pattern_recognition",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 5,
+"requires_formula": false,
+"requires_comparison": true,
+"requires_inference": true,
+"common_trap": "Menghitung banyak suku secara langsung sampai indeks besar tanpa memanfaatkan pola."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "recursive_sequence_statement",
+"family": "recurrence_multi_statement",
+"pattern": "Barisan didefinisikan secara rekursif dan beberapa pernyataan tentang suku tertentu harus dinilai.",
+"entities": [
+"suku awal",
+"aturan rekurensi",
+"indeks",
+"pernyataan"
+],
+"operations": [
+"rekurensi",
+"analisis pola",
+"uji pernyataan"
+],
+"relationships": [
+"setiap suku ditentukan oleh suku sebelumnya"
+],
+"question_targets": [
+"jumlah pernyataan benar"
+],
+"constraints": [
+"aturan berlaku untuk setiap bilangan asli n"
+],
+"difficulty_scaling": {
+"easy": "Indeks kecil.",
+"medium": "Indeks besar dengan pola.",
+"hard": "Sifat modulo atau tanda."
+},
+"distractor_strategy": [
+"salah indeks",
+"salah tanda",
+"menggeneralisasi dari beberapa suku awal"
+]
+},
+"answer_logic": {
+"method": "Hitung atau identifikasi pola barisan kemudian evaluasi empat pernyataan.",
+"formula": "aₙ₊₁ = 2 − 5aₙ",
+"verification": [
+"Evaluasi setiap pernyataan secara independen.",
+"Hitung jumlah pernyataan benar."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.75,
+"explanation_quality": 0.75
+},
+"tags": [
+"sequence",
+"recurrence",
+"pattern",
+"statements"
+]
+},
+{
+"id": "PK-SQ-002",
+"source": {
+"exam": "SPMB",
+"year": 2006,
+"session": "",
+"section": "Dasar/16",
+"source_type": "source_book",
+"source_reference": "SPMB 2006/Dasar/16"
+},
+"content": {
+"question": "Jika jumlah n suku pertama deret aritmetika adalah Sₙ = 2n² + 3n, maka beda deretnya adalah ...",
+"options": [
+"2",
+"3",
+"4",
+"5",
+"6"
+],
+"answer": "4",
+"explanation": "Suku ke-n diperoleh dari Sₙ−Sₙ₋₁. Hasilnya merupakan barisan aritmetika dengan beda 4.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan aritmetika",
+"skills": [
+"hubungan Sₙ dan Uₙ",
+"menentukan beda"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan aritmetika",
+"deret"
+]
+},
+"difficulty": {
+"overall": 2,
+"concept": 2,
+"reasoning": 2,
+"calculation": 2,
+"reading": 1,
+"time_pressure": 2
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "single_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": false,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 2,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menganggap koefisien n² langsung merupakan beda tanpa memperoleh suku ke-n."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "arithmetic_sum_to_difference",
+"family": "arithmetic_sequence_from_sum",
+"pattern": "Diberikan rumus jumlah n suku pertama deret aritmetika, tentukan beda.",
+"entities": [
+"Sₙ",
+"Uₙ",
+"beda"
+],
+"operations": [
+"selisih Sₙ dan Sₙ₋₁",
+"identifikasi koefisien"
+],
+"relationships": [
+"Uₙ = Sₙ − Sₙ₋₁"
+],
+"question_targets": [
+"beda"
+],
+"constraints": [
+"Sₙ merupakan jumlah deret aritmetika"
+],
+"difficulty_scaling": {
+"easy": "Polinom kuadrat sederhana.",
+"medium": "Koefisien pecahan.",
+"hard": "Ekspresi Sₙ lebih kompleks."
+},
+"distractor_strategy": [
+"mengambil koefisien n²",
+"mengambil koefisien n",
+"menggunakan suku pertama sebagai beda"
+]
+},
+"answer_logic": {
+"method": "Dapatkan Uₙ dari Sₙ−Sₙ₋₁, lalu identifikasi beda.",
+"formula": "Uₙ = Sₙ − Sₙ₋₁",
+"verification": [
+"Uₙ = 4n+1.",
+"Beda = 4."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.96
+},
+"tags": [
+"sequence",
+"arithmetic_sequence",
+"series",
+"sum"
+]
+},
+{
+"id": "PK-SQ-003",
+"source": {
+"exam": "SPMB",
+"year": 2006,
+"session": "",
+"section": "Dasar/19",
+"source_type": "source_book",
+"source_reference": "SPMB 2006/Dasar/19"
+},
+"content": {
+"question": "Seutas tali yang panjangnya 110cm dipotong 10 bagian sehingga panjang setiap bagian membentuk suku deret aritmetika berurutan. Jika suku deret yang terbesar adalah 20, maka selisih antara setiap potongan tali adalah ...",
+"options": [
+"2 cm",
+"2,5 cm",
+"3 cm",
+"4 cm",
+"5 cm"
+],
+"answer": "2,5 cm",
+"explanation": "Jumlah 10 suku adalah 110 cm dan suku terbesar 20 cm. Gunakan rumus jumlah deret aritmetika untuk memperoleh suku pertama, kemudian beda.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan aritmetika",
+"skills": [
+"jumlah deret aritmetika",
+"menentukan beda"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan aritmetika",
+"jumlah deret"
+]
+},
+"difficulty": {
+"overall": 3,
+"concept": 2,
+"reasoning": 3,
+"calculation": 3,
+"reading": 2,
+"time_pressure": 3
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menggunakan suku terbesar sebagai rata-rata."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "arithmetic_partition",
+"family": "arithmetic_partition",
+"pattern": "Total panjang dibagi menjadi sejumlah bagian yang membentuk barisan aritmetika; suku terbesar diberikan dan beda dicari.",
+"entities": [
+"jumlah suku",
+"total",
+"suku terbesar",
+"beda"
+],
+"operations": [
+"rumus jumlah",
+"substitusi",
+"penyelesaian linear"
+],
+"relationships": [
+"panjang bagian berturut-turut membentuk barisan aritmetika"
+],
+"question_targets": [
+"beda"
+],
+"constraints": [
+"jumlah bagian diketahui",
+"suku terbesar diketahui"
+],
+"difficulty_scaling": {
+"easy": "Angka menghasilkan beda bulat.",
+"medium": "Beda pecahan.",
+"hard": "Jumlah bagian atau suku ekstrem lebih kompleks."
+},
+"distractor_strategy": [
+"menggunakan rata-rata sebagai suku terbesar",
+"salah faktor jumlah",
+"salah tanda beda"
+]
+},
+"answer_logic": {
+"method": "Gunakan jumlah deret untuk memperoleh suku pertama, lalu gunakan suku terakhir untuk memperoleh beda.",
+"formula": "Sₙ = n/2(a₁+aₙ)",
+"verification": [
+"110 = 5(a₁+20).",
+"a₁ = 2.",
+"9d = 18 sehingga d = 2."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.95
+},
+"tags": [
+"sequence",
+"arithmetic_sequence",
+"series",
+"word_problem"
+]
+},
+{
+"id": "PK-SQ-004",
+"source": {
+"exam": "SNMPTN 2010/Dasar",
+"year": 2010,
+"session": "",
+"section": "346/9",
+"source_type": "source_book",
+"source_reference": "SNMPTN 2010/Dasar/346/9"
+},
+"content": {
+"question": "Jika 18,a,b,c,d,e,f,g,−6 merupakan barisan aritmetika, maka a+d+g = ...",
+"options": [
+"36",
+"30",
+"24",
+"18",
+"12"
+],
+"answer": "18",
+"explanation": "Delapan selang dari 18 ke −6 memberikan beda −3. Tentukan suku a, d, dan g lalu jumlahkan.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan aritmetika",
+"skills": [
+"menentukan beda",
+"menentukan suku tertentu",
+"operasi suku"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan aritmetika"
+]
+},
+"difficulty": {
+"overall": 2,
+"concept": 2,
+"reasoning": 2,
+"calculation": 2,
+"reading": 1,
+"time_pressure": 2
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "single_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": false,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": false,
+"common_trap": "Salah menghitung jumlah selang antara suku pertama dan terakhir."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "arithmetic_selected_terms",
+"family": "arithmetic_sequence_selected_terms",
+"pattern": "Beberapa suku dalam barisan aritmetika diketahui secara simbolik dan dua suku ekstrem diberikan; tentukan kombinasi suku tertentu.",
+"entities": [
+"suku pertama",
+"suku terakhir",
+"suku antara",
+"beda"
+],
+"operations": [
+"menentukan beda",
+"menentukan indeks suku",
+"menjumlahkan suku"
+],
+"relationships": [
+"beda konstan antar suku"
+],
+"question_targets": [
+"kombinasi suku tertentu"
+],
+"constraints": [
+"urutan suku diketahui"
+],
+"difficulty_scaling": {
+"easy": "Suku yang diminta berdekatan.",
+"medium": "Indeks lebih jauh.",
+"hard": "Kombinasi linear beberapa suku."
+},
+"distractor_strategy": [
+"salah jumlah selang",
+"salah tanda beda",
+"salah indeks"
+]
+},
+"answer_logic": {
+"method": "Tentukan beda dari dua suku ekstrem, lalu hitung suku yang diminta.",
+"formula": "d = (−6−18)/8",
+"verification": [
+"d = −3.",
+"a = 15, d-suku = 6, g = −3.",
+"Jumlah = 18."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.96
+},
+"tags": [
+"sequence",
+"arithmetic_sequence",
+"selected_terms"
+]
+},
+{
+"id": "PK-SQ-005",
+"source": {
+"exam": "SNMPTN 2011/Dasar",
+"year": 2011,
+"session": "",
+"section": "179/15",
+"source_type": "source_book",
+"source_reference": "SNMPTN 2011/Dasar/179/15"
+},
+"content": {
+"question": "Jika jumlah 10 suku pertama suatu deret aritmetika adalah 220 dan jumlah 2 suku berturut-turut berikutnya adalah −4, maka jumlah 2 suku pertama deret tersebut adalah ...",
+"options": [
+"36",
+"40",
+"44",
+"72",
+"76"
+],
+"answer": "76",
+"explanation": "Jumlah dua suku setelah sepuluh suku adalah U₁₁+U₁₂=−4. Bersama S₁₀=220, hubungan tersebut menentukan suku pertama dan beda, lalu S₂.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Deret aritmetika",
+"skills": [
+"jumlah deret",
+"hubungan suku",
+"eliminasi parameter"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan aritmetika",
+"rumus jumlah"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 3,
+"reasoning": 4,
+"calculation": 3,
+"reading": 2,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 4,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menganggap dua suku berikutnya adalah dua suku pertama."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "arithmetic_sum_offset_terms",
+"family": "arithmetic_series_offset_constraint",
+"pattern": "Jumlah beberapa suku awal dan jumlah dua suku pada posisi berikutnya diberikan; tentukan jumlah suku awal lainnya.",
+"entities": [
+"Sₙ",
+"suku berindeks lanjut",
+"suku pertama",
+"beda"
+],
+"operations": [
+"mengubah jumlah suku menjadi persamaan",
+"membentuk hubungan dua suku",
+"menyelesaikan parameter"
+],
+"relationships": [
+"suku berurutan memiliki beda konstan"
+],
+"question_targets": [
+"S₂"
+],
+"constraints": [
+"barisan aritmetika"
+],
+"difficulty_scaling": {
+"easy": "Informasi langsung tentang suku awal.",
+"medium": "Informasi diberikan pada indeks lanjut.",
+"hard": "Beberapa jumlah parsial."
+},
+"distractor_strategy": [
+"salah indeks",
+"menggunakan S₁₀ sebagai S₂",
+"salah tanda beda"
+]
+},
+"answer_logic": {
+"method": "Bentuk dua persamaan dari S₁₀ dan U₁₁+U₁₂, lalu cari S₂.",
+"formula": "S₁₀ = 5(2a+9d); U₁₁+U₁₂ = 2a+21d",
+"verification": [
+"Dua persamaan menentukan a dan d.",
+"S₂ = 2a+d.",
+"S₂ = 76."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.95
+},
+"tags": [
+"sequence",
+"arithmetic_sequence",
+"series",
+"partial_sum"
+]
+},
+{
+"id": "PK-SQ-006",
+"source": {
+"exam": "SNMPTN 2012/DASAR",
+"year": 2012,
+"session": "",
+"section": "122/12",
+"source_type": "source_book",
+"source_reference": "SNMPTN 2012/DASAR/122/12"
+},
+"content": {
+"question": "Jika Sₙ = 5n² − 6n adalah jumlah n suku barisan aritmetika, maka suku ke-5 barisan tersebut adalah ...",
+"options": [
+"51",
+"41",
+"39",
+"29",
+"20"
+],
+"answer": "39",
+"explanation": "Suku ke-5 diperoleh dari S₅−S₄.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan aritmetika",
+"skills": [
+"hubungan Sₙ dan Uₙ",
+"menghitung suku tertentu"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"deret aritmetika",
+"notasi Sₙ"
+]
+},
+"difficulty": {
+"overall": 2,
+"concept": 2,
+"reasoning": 2,
+"calculation": 2,
+"reading": 1,
+"time_pressure": 2
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "single_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": false,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 2,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menggunakan S₅ sebagai U₅."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "nth_term_from_partial_sum",
+"family": "sequence_from_sum_formula",
+"pattern": "Diberikan rumus jumlah n suku pertama, tentukan satu suku tertentu.",
+"entities": [
+"Sₙ",
+"Uₙ",
+"indeks target"
+],
+"operations": [
+"mengurangi dua jumlah berturut-turut"
+],
+"relationships": [
+"Uₙ = Sₙ−Sₙ₋₁"
+],
+"question_targets": [
+"suku ke-n"
+],
+"constraints": [
+"Sₙ diberikan sebagai fungsi n"
+],
+"difficulty_scaling": {
+"easy": "Indeks kecil.",
+"medium": "Indeks besar.",
+"hard": "Target berupa kombinasi beberapa suku."
+},
+"distractor_strategy": [
+"menggunakan Sₙ sebagai Uₙ",
+"salah menghitung Sₙ₋₁",
+"salah indeks"
+]
+},
+"answer_logic": {
+"method": "Hitung S₅ dan S₄ lalu kurangkan.",
+"formula": "U₅ = S₅−S₄",
+"verification": [
+"S₅ = 95.",
+"S₄ = 56.",
+"U₅ = 39."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.96
+},
+"tags": [
+"sequence",
+"arithmetic_sequence",
+"partial_sum",
+"nth_term"
+]
+},
+{
+"id": "PK-SQ-007",
+"source": {
+"exam": "SPMB",
+"year": 2007,
+"session": "",
+"section": "IPA/15",
+"source_type": "source_book",
+"source_reference": "SPMB 2007/IPA/15"
+},
+"content": {
+"question": "Tiga bilangan merupakan suku-suku deret aritmetika. Jika suku pertama dikurangi 2 dan suku ketiga ditambah 6, maka barisan tersebut menjadi barisan geometri dengan rasio 2. Hasil kali ketiga bilangan pada barisan geometri tersebut adalah ...",
+"options": [
+"128",
+"240",
+"256",
+"480",
+"512"
+],
+"answer": "512",
+"explanation": "Misalkan tiga suku aritmetika berbentuk a−d, a, a+d. Setelah perubahan, ketiga suku menjadi barisan geometri dengan rasio 2. Gunakan syarat rasio untuk menentukan ketiganya dan hasil kalinya.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan aritmetika dan geometri",
+"skills": [
+"hubungan barisan aritmetika-geometri",
+"pemodelan aljabar",
+"rasio geometri"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan aritmetika",
+"barisan geometri",
+"persamaan"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 4,
+"reasoning": 4,
+"calculation": 3,
+"reading": 2,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 4,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menggunakan tiga bilangan sebagai langsung menjadi barisan geometri tanpa menerapkan perubahan pada suku pertama dan ketiga."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "arithmetic_to_geometric",
+"family": "mixed_sequence_transformation",
+"pattern": "Tiga bilangan mula-mula merupakan barisan aritmetika; modifikasi pada suku ekstrem menghasilkan barisan geometri dengan rasio tertentu.",
+"entities": [
+"tiga suku aritmetika",
+"perubahan suku",
+"rasio geometri"
+],
+"operations": [
+"pemodelan suku aritmetika",
+"membentuk kondisi geometri",
+"menghitung hasil kali"
+],
+"relationships": [
+"suku tengah barisan aritmetika menjadi suku tengah barisan geometri setelah transformasi"
+],
+"question_targets": [
+"hasil kali suku"
+],
+"constraints": [
+"rasio geometri diberikan"
+],
+"difficulty_scaling": {
+"easy": "Rasio sederhana.",
+"medium": "Transformasi pada dua suku.",
+"hard": "Transformasi dan target kombinasi lain."
+},
+"distractor_strategy": [
+"mengabaikan perubahan suku",
+"menggunakan beda sebagai rasio",
+"salah menentukan suku tengah"
+]
+},
+"answer_logic": {
+"method": "Representasikan tiga suku aritmetika dengan parameter, terapkan perubahan, gunakan rasio geometri, lalu hitung hasil kali.",
+"formula": "U₂² = U₁U₃",
+"verification": [
+"Ketiga suku setelah transformasi harus memiliki rasio 2.",
+"Hasil kali diperoleh dari suku-suku geometri."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.92
+},
+"tags": [
+"sequence",
+"arithmetic",
+"geometric",
+"ratio"
+]
+},
+{
+"id": "PK-SQ-008",
+"source": {
+"exam": "SNMPTN 2011/Dasar",
+"year": 2011,
+"session": "",
+"section": "179/13",
+"source_type": "source_book",
+"source_reference": "SNMPTN 2011/Dasar/179/13"
+},
+"content": {
+"question": "Tiga bilangan bulat positif membentuk barisan aritmetika dengan beda 16. Jika bilangan yang terkecil ditambah 10 dan bilangan yang terbesar ditambah 7, maka diperoleh barisan geometri. Jumlah ketiga bilangan tersebut adalah ...",
+"options": [
+"42",
+"45",
+"52",
+"54",
+"57"
+],
+"answer": "54",
+"explanation": "Representasikan tiga bilangan sebagai a−16, a, a+16. Setelah perubahan pada suku ekstrem, gunakan syarat tiga suku geometri untuk menentukan a.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan aritmetika dan geometri",
+"skills": [
+"barisan aritmetika",
+"barisan geometri",
+"pemodelan"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan aritmetika",
+"barisan geometri"
+]
+},
+"difficulty": {
+"overall": 4,
+"concept": 4,
+"reasoning": 4,
+"calculation": 3,
+"reading": 2,
+"time_pressure": 4
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 4,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Salah menerapkan beda 16 pada tiga suku atau mengubah suku yang salah."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "arithmetic_geometric_transform",
+"family": "mixed_sequence_parameter",
+"pattern": "Tiga bilangan positif membentuk barisan aritmetika; transformasi terhadap suku ekstrem menghasilkan barisan geometri.",
+"entities": [
+"tiga bilangan",
+"beda",
+"transformasi",
+"rasio"
+],
+"operations": [
+"pemodelan suku",
+"menerapkan transformasi",
+"syarat geometri"
+],
+"relationships": [
+"suku aritmetika memiliki beda tetap",
+"tiga suku geometri memenuhi U₂²=U₁U₃"
+],
+"question_targets": [
+"jumlah ketiga bilangan"
+],
+"constraints": [
+"bilangan bulat positif",
+"beda diketahui"
+],
+"difficulty_scaling": {
+"easy": "Beda kecil.",
+"medium": "Transformasi sederhana.",
+"hard": "Beberapa parameter atau target tambahan."
+},
+"distractor_strategy": [
+"salah memodelkan beda",
+"menggunakan rasio sebagai beda",
+"salah menerapkan perubahan"
+]
+},
+"answer_logic": {
+"method": "Modelkan tiga suku aritmetika, ubah suku ekstrem sesuai soal, lalu gunakan kondisi geometri.",
+"formula": "U₂² = U₁U₃",
+"verification": [
+"Gunakan beda 16.",
+"Terapkan +10 pada suku terkecil dan +7 pada suku terbesar.",
+"Jumlah awal = 54."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.93
+},
+"tags": [
+"sequence",
+"arithmetic",
+"geometric",
+"integer"
+]
+},
+{
+"id": "PK-SQ-009",
+"source": {
+"exam": "SNMPTN 2012/DASAR",
+"year": 2012,
+"session": "",
+"section": "623/13",
+"source_type": "source_book",
+"source_reference": "SNMPTN 2012/DASAR/623/13"
+},
+"content": {
+"question": "Jika a adalah suku pertama, r adalah rasio, dan Sₙ = 3(2ⁿ⁺¹ − 2) adalah jumlah n suku pertama deret geometri, maka nilai a+r adalah ...",
+"options": [
+"4",
+"5",
+"6",
+"7",
+"8"
+],
+"answer": "8",
+"explanation": "Gunakan bentuk jumlah deret geometri untuk mengidentifikasi suku pertama dan rasio dari Sₙ.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Deret geometri",
+"skills": [
+"rumus jumlah deret geometri",
+"menentukan suku pertama",
+"menentukan rasio"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan geometri",
+"jumlah deret geometri"
+]
+},
+"difficulty": {
+"overall": 3,
+"concept": 3,
+"reasoning": 3,
+"calculation": 2,
+"reading": 1,
+"time_pressure": 3
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "single_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": false,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 3,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Salah mencocokkan pangkat 2 dengan rasio."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "geometric_sum_parameter",
+"family": "geometric_series_parameters",
+"pattern": "Rumus jumlah deret geometri diberikan dalam bentuk eksponensial; tentukan kombinasi parameter a dan r.",
+"entities": [
+"Sₙ",
+"a",
+"r"
+],
+"operations": [
+"mencocokkan bentuk rumus",
+"mengidentifikasi rasio",
+"mengidentifikasi suku pertama"
+],
+"relationships": [
+"Sₙ mengikuti bentuk jumlah geometri"
+],
+"question_targets": [
+"ekspresi a+r"
+],
+"constraints": [
+"r tidak sama dengan 1"
+],
+"difficulty_scaling": {
+"easy": "Bentuk eksponensial langsung.",
+"medium": "Faktor konstanta perlu diuraikan.",
+"hard": "Parameter tersamar dalam ekspresi."
+},
+"distractor_strategy": [
+"salah menentukan rasio",
+"salah menentukan suku pertama",
+"menggunakan suku pertama sebagai koefisien pangkat"
+]
+},
+"answer_logic": {
+"method": "Bandingkan bentuk Sₙ dengan rumus jumlah deret geometri untuk mendapatkan a dan r.",
+"formula": "Sₙ = a(rⁿ−1)/(r−1)",
+"verification": [
+"Identifikasi faktor 2ⁿ.",
+"Tentukan r.",
+"Tentukan a.",
+"Hitung a+r = 8."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.93
+},
+"tags": [
+"sequence",
+"geometric_sequence",
+"geometric_series",
+"ratio"
+]
+},
+{
+"id": "PK-SQ-010",
+"source": {
+"exam": "SBMPTN 2013/Dasar",
+"year": 2013,
+"session": "",
+"section": "323/12",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2013/Dasar/323/12"
+},
+"content": {
+"question": "Misalkan a,b,c,d merupakan suatu barisan aritmetika dan a,b,d merupakan barisan geometri, maka nilai a+b+c+d adalah ...",
+"options": [
+"15 atau 24",
+"16 atau 32",
+"24 atau 32",
+"24 atau 36",
+"25 atau 36"
+],
+"answer": "[UNCLEAR]",
+"explanation": "[UNCLEAR]",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan aritmetika dan geometri",
+"skills": [
+"hubungan dua jenis barisan",
+"pemodelan parameter",
+"persamaan"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan aritmetika",
+"barisan geometri"
+]
+},
+"difficulty": {
+"overall": 5,
+"concept": 4,
+"reasoning": 5,
+"calculation": 3,
+"reading": 2,
+"time_pressure": 5
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "logical_deduction",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "logical_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 5,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Menggunakan rasio geometri yang sama dengan beda aritmetika."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "dual_sequence_constraint",
+"family": "arithmetic_geometric_intersection",
+"pattern": "Empat variabel membentuk barisan aritmetika, sementara subset tertentu juga membentuk barisan geometri; tentukan kombinasi variabel.",
+"entities": [
+"empat suku",
+"beda",
+"rasio",
+"subset suku"
+],
+"operations": [
+"memodelkan barisan aritmetika",
+"menerapkan syarat geometri",
+"menyelesaikan parameter"
+],
+"relationships": [
+"beda aritmetika konstan",
+"suku subset memenuhi hubungan geometri"
+],
+"question_targets": [
+"jumlah beberapa suku"
+],
+"constraints": [
+"dua struktur barisan harus dipenuhi sekaligus"
+],
+"difficulty_scaling": {
+"easy": "Tiga suku dan satu kondisi.",
+"medium": "Subset empat suku.",
+"hard": "Beberapa subset atau target kombinasi."
+},
+"distractor_strategy": [
+"menganggap semua suku geometri",
+"menggunakan rasio sebagai beda",
+"mengabaikan salah satu kondisi"
+]
+},
+"answer_logic": {
+"method": "Representasikan a,b,c,d sebagai barisan aritmetika, kemudian gunakan kondisi a,b,d sebagai barisan geometri.",
+"formula": "b² = ad",
+"verification": [
+"Gunakan hubungan beda konstan.",
+"Gunakan syarat geometri pada a,b,d.",
+"Evaluasi semua kemungkinan yang memenuhi."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.75,
+"explanation_quality": 0.75
+},
+"tags": [
+"sequence",
+"arithmetic",
+"geometric",
+"parameter"
+]
+},
+{
+"id": "PK-SQ-011",
+"source": {
+"exam": "SBMPTN 2017/TKPA",
+"year": 2017,
+"session": "",
+"section": "229/53",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2017/TKPA/229/53"
+},
+"content": {
+"question": "Hasil kali suku pertama dan suku ke-5 suatu barisan geometri adalah 16 dan jumlah suku ke-2 dan suku ke-4 adalah −10. Jika suku pertama negatif, maka rasio barisan tersebut adalah ...",
+"options": [
+"1/2 atau −2",
+"2 atau −1",
+"−5 atau −3",
+"−1/2 atau 3",
+"−1 atau −2"
+],
+"answer": "[UNCLEAR]",
+"explanation": "[UNCLEAR]",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan geometri",
+"skills": [
+"rasio geometri",
+"sistem hubungan suku",
+"analisis tanda"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan geometri",
+"persamaan kuadrat"
+]
+},
+"difficulty": {
+"overall": 5,
+"concept": 4,
+"reasoning": 5,
+"calculation": 4,
+"reading": 2,
+"time_pressure": 5
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "logical_deduction",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "logical_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 5,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Mengabaikan syarat suku pertama negatif saat memilih akar rasio."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "geometric_ratio_constraints",
+"family": "geometric_sequence_parameter",
+"pattern": "Produk dua suku dan jumlah dua suku lain diberikan; tanda suku awal memilih kemungkinan rasio.",
+"entities": [
+"suku pertama",
+"rasio",
+"suku ke-2",
+"suku ke-4",
+"suku ke-5"
+],
+"operations": [
+"menyatakan suku dengan a dan r",
+"membentuk persamaan",
+"menyelesaikan rasio",
+"memilih berdasarkan tanda"
+],
+"relationships": [
+"Uₙ = arⁿ⁻¹"
+],
+"question_targets": [
+"rasio"
+],
+"constraints": [
+"suku pertama negatif"
+],
+"difficulty_scaling": {
+"easy": "Satu persamaan rasio.",
+"medium": "Dua hubungan suku.",
+"hard": "Beberapa kemungkinan rasio dan kondisi tanda."
+},
+"distractor_strategy": [
+"salah pangkat rasio",
+"mengabaikan tanda",
+"memilih akar yang salah"
+]
+},
+"answer_logic": {
+"method": "Nyatakan suku menggunakan a dan r, gunakan kedua kondisi, lalu gunakan tanda a untuk memilih rasio.",
+"formula": "Uₙ = arⁿ⁻¹",
+"verification": [
+"U₁U₅ = a²r⁴ = 16.",
+"U₂+U₄ = ar+ar³ = −10.",
+"Syarat a<0 membatasi kemungkinan."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.75,
+"explanation_quality": 0.75
+},
+"tags": [
+"sequence",
+"geometric_sequence",
+"ratio",
+"sign_condition"
+]
+},
+{
+"id": "PK-SQ-012",
+"source": {
+"exam": "SBMPTN 2018/TKPA",
+"year": 2018,
+"session": "",
+"section": "534/53",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2018/TKPA/534/53"
+},
+"content": {
+"question": "Diketahui suatu barisan geometri yang terdiri atas empat suku. Jika hasil kali tiga suku pertama adalah −27 dan hasil penjumlahan tiga suku terakhir adalah −9/2, maka suku ketiga barisan geometri tersebut adalah ...",
+"options": [
+"−3/2",
+"−1/2",
+"1/2",
+"3/2",
+"3"
+],
+"answer": "−3/2",
+"explanation": "Gunakan bentuk empat suku geometri a, ar, ar², ar³. Hubungan produk tiga suku pertama dan jumlah tiga suku terakhir memberikan parameter yang diperlukan untuk menentukan suku ketiga.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Sequence",
+"subtopic": "Barisan geometri",
+"skills": [
+"pemodelan barisan geometri",
+"hubungan produk dan jumlah suku",
+"eliminasi parameter"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"barisan geometri",
+"persamaan"
+]
+},
+"difficulty": {
+"overall": 5,
+"concept": 4,
+"reasoning": 5,
+"calculation": 4,
+"reading": 2,
+"time_pressure": 5
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "multi_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 5,
+"requires_formula": true,
+"requires_comparison": false,
+"requires_inference": true,
+"common_trap": "Salah menentukan pangkat rasio pada produk tiga suku pertama."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "geometric_product_sum",
+"family": "geometric_sequence_constraints",
+"pattern": "Empat suku geometri diberikan secara implisit melalui produk tiga suku pertama dan jumlah tiga suku terakhir; tentukan suku tertentu.",
+"entities": [
+"empat suku",
+"suku pertama",
+"rasio",
+"produk",
+"jumlah"
+],
+"operations": [
+"memodelkan suku",
+"membentuk dua persamaan",
+"eliminasi parameter"
+],
+"relationships": [
+"Uₙ = arⁿ⁻¹"
+],
+"question_targets": [
+"suku ketiga"
+],
+"constraints": [
+"empat suku membentuk barisan geometri"
+],
+"difficulty_scaling": {
+"easy": "Satu hubungan langsung.",
+"medium": "Produk dan jumlah.",
+"hard": "Beberapa kondisi dengan parameter."
+},
+"distractor_strategy": [
+"salah pangkat rasio",
+"salah tanda",
+"menggunakan suku ketiga sebagai rasio"
+]
+},
+"answer_logic": {
+"method": "Nyatakan empat suku sebagai a, ar, ar², ar³ dan gunakan dua kondisi yang diberikan untuk menentukan suku ketiga.",
+"formula": "U₁U₂U₃ = a³r³; U₂+U₃+U₄ = ar+ar²+ar³",
+"verification": [
+"Produk tiga suku pertama = −27.",
+"Jumlah tiga suku terakhir = −9/2.",
+"Suku ketiga = −3/2."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.9,
+"explanation_quality": 0.88
+},
+"tags": [
+"sequence",
+"geometric_sequence",
+"product",
+"sum"
+]
+}
+]
