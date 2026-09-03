@@ -1,1 +1,159 @@
-alalalla
+
+
+{
+"id": "PK-RP-001",
+"source": {
+"exam": "SBMPTN 2019/UTBK I",
+"year": 2019,
+"session": "I",
+"section": "PK/68",
+"source_type": "source_book",
+"source_reference": "SBMPTN 2019/UTBK I/PK/68"
+},
+"content": {
+"question": "Rasio antara jumlah uang yang dimiliki oleh Agung, Budi, dan Citra adalah 2:3:5. Jika selisih antara jumlah uang Agung dan Budi adalah x rupiah, maka total jumlah uang Budi dan Citra adalah ... rupiah",
+"options": [
+"2x",
+"3x",
+"5x",
+"8x",
+"10x"
+],
+"answer": "8x",
+"explanation": "Selisih rasio Agung dan Budi adalah 1 bagian sehingga 1 bagian = x. Budi dan Citra berjumlah 3 + 5 = 8 bagian, sehingga totalnya 8x.",
+"language": "id"
+},
+"classification": {
+"domain": "Pengetahuan Kuantitatif",
+"topic": "Ratio & Proportion",
+"subtopic": "Rasio",
+"skills": [
+"menafsirkan rasio",
+"menghubungkan bagian rasio dengan parameter"
+],
+"skill_tree_ids": [],
+"prerequisites": [
+"operasi aljabar dasar",
+"konsep rasio"
+]
+},
+"difficulty": {
+"overall": 2,
+"concept": 1,
+"reasoning": 2,
+"calculation": 1,
+"reading": 1,
+"time_pressure": 2
+},
+"question_type": {
+"format": "multiple_choice",
+"format_possible_values": [
+"multiple_choice",
+"multiple_select",
+"true_false",
+"numeric_input",
+"matching",
+"complex_multiple_choice"
+],
+"reasoning_type": "single_step",
+"reasoning_type_possible_values": [
+"direct",
+"single_step",
+"multi_step",
+"comparison",
+"logical_deduction",
+"pattern_recognition",
+"case_analysis",
+"data_interpretation",
+"spatial_reasoning",
+"conditional_reasoning"
+],
+"calculation_required": true,
+"reading_required": true,
+"visual_required": false
+},
+"cognitive": {
+"primary_skill": "quantitative_reasoning",
+"primary_skill_possible_values": [
+"quantitative_reasoning",
+"logical_reasoning",
+"critical_reasoning",
+"verbal_reasoning",
+"data_interpretation",
+"reading_comprehension",
+"pattern_recognition",
+"spatial_reasoning"
+],
+"reasoning_steps": 2,
+"requires_formula": false,
+"requires_comparison": true,
+"requires_inference": true,
+"common_trap": "Menggunakan rasio Agung:Budi:Citra secara langsung tanpa terlebih dahulu menentukan nilai satu bagian dari selisih Agung dan Budi."
+},
+"generation": {
+"generatable": true,
+"blueprint": {
+"id": "ratio_parameter_from_difference",
+"family": "ratio_parameter",
+"pattern": "Tiga entitas memiliki rasio tertentu; selisih dua entitas diberikan sebagai parameter; tentukan total atau kombinasi entitas lain.",
+"entities": [
+"tiga kuantitas",
+"parameter selisih",
+"total kuantitas"
+],
+"operations": [
+"selisih rasio",
+"penjumlahan bagian rasio",
+"perkalian dengan parameter"
+],
+"relationships": [
+"kuantitas berbanding sesuai rasio",
+"selisih dua kuantitas menjadi satuan skala"
+],
+"question_targets": [
+"total kuantitas",
+"kombinasi beberapa bagian rasio"
+],
+"constraints": [
+"rasio memiliki tiga bagian",
+"parameter merepresentasikan selisih dua bagian"
+],
+"difficulty_scaling": {
+"easy": "Rasio kecil dan langsung menentukan total.",
+"medium": "Lebih banyak entitas atau kombinasi bagian.",
+"hard": "Parameter diberikan melalui hubungan tidak langsung."
+},
+"distractor_strategy": [
+"menggunakan salah satu bagian rasio sebagai jawaban",
+"menjumlahkan rasio yang salah",
+"menggunakan selisih kuantitas sebagai total"
+]
+},
+"answer_logic": {
+"method": "Tentukan nilai satu bagian rasio dari selisih Agung dan Budi, lalu jumlahkan bagian Budi dan Citra.",
+"formula": "1 bagian = x; Budi + Citra = (3+5)x",
+"verification": [
+"Selisih rasio Agung dan Budi = 3-2 = 1.",
+"Budi dan Citra = 3+5 = 8 bagian."
+]
+}
+},
+"quality": {
+"verified": true,
+"verification_method": "human",
+"verification_method_possible_values": [
+"human",
+"rule_based",
+"automated_solver",
+"human_and_automated"
+],
+"answer_confidence": 0.99,
+"explanation_quality": 0.95
+},
+"tags": [
+"ratio",
+"proportion",
+"parameter",
+"quantitative_reasoning"
+]
+}
