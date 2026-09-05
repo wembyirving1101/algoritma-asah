@@ -1,0 +1,1920 @@
+[
+  {
+    "id": "UTBK-PM-2025-013",
+    "source": {
+      "exam": "UTBK",
+      "year": 2025,
+      "session": "UTBK",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, UTBK 2025/TPS/PM/13"
+    },
+    "content": {
+      "question": "Di suatu grosir beras, disediakan berbagai jenis beras. Salah satu jenis yang dijual oleh pedagang grosir itu adalah beras mentik wangi. Data pasokan dan terjual beras mentik wangi (dalam ton) tiap hari pada satu minggu disajikan dalam diagram berikut. Berdasarkan diagram di atas, stok beras mentik wangi yang terbanyak terjadi pada hari...",
+      "options": [
+        "Senin",
+        "Selasa",
+        "Rabu",
+        "Kamis",
+        "Minggu"
+      ],
+      "answer": "C",
+      "explanation": "Dengan asumsi stok awal minggu adalah 0 ton, stok dihitung dari selisih pasokan dan jumlah terjual secara kumulatif. Stok terbesar terjadi pada hari Rabu, yaitu 6 ton.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Statistics & Data",
+      "subtopic": "Graph",
+      "skills": [
+        "Membaca diagram batang",
+        "Menginterpretasikan data grafik",
+        "Menghitung stok secara kumulatif",
+        "Menentukan nilai maksimum"
+      ],
+      "skill_tree_ids": [
+        "PM.STATS.GRAPH"
+      ],
+      "prerequisites": [
+        "PM.ALGEBRA.BASIC_OPERATIONS",
+        "PM.STATS.DATA_INTERPRETATION"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 2,
+      "reasoning": 3,
+      "calculation": 3,
+      "reading": 2,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "data_interpretation",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "data_interpretation",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 7,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Menggunakan selisih pasokan dan penjualan pada satu hari saja tanpa memperhitungkan stok yang tersisa dari hari sebelumnya."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-GRAPH-STOCK-001",
+        "family": "cumulative_stock_from_bar_chart",
+        "pattern": "Diberikan data pasokan dan penjualan harian dalam grafik, tentukan hari ketika stok kumulatif mencapai nilai terbesar.",
+        "entities": [
+          "hari",
+          "pasokan",
+          "penjualan",
+          "stok"
+        ],
+        "operations": [
+          "subtraction",
+          "addition",
+          "cumulative_calculation",
+          "maximum"
+        ],
+        "relationships": [
+          "stok_hari_ini = stok_hari_sebelumnya + pasokan_hari_ini - penjualan_hari_ini"
+        ],
+        "question_targets": [
+          "hari dengan stok maksimum"
+        ],
+        "constraints": [
+          "stok awal harus ditentukan",
+          "nilai pasokan dan penjualan harus non-negatif",
+          "minimal satu hari harus memiliki stok maksimum yang unik"
+        ],
+        "difficulty_scaling": {
+          "easy": "Gunakan 3–4 hari dengan selisih sederhana.",
+          "medium": "Gunakan 7 hari dengan stok yang naik dan turun.",
+          "hard": "Tambahkan stok awal atau pola perubahan yang lebih kompleks."
+        },
+        "distractor_strategy": [
+          "Pilih hari dengan pasokan terbesar.",
+          "Pilih hari dengan penjualan terbesar.",
+          "Pilih hari dengan selisih pasokan-penjualan terbesar."
+        ]
+      },
+      "answer_logic": {
+        "method": "Hitung stok kumulatif dari hari pertama sampai hari terakhir lalu tentukan nilai terbesar.",
+        "formula": "S_t = S_(t-1) + P_t - J_t",
+        "verification": [
+          "Stok maksimum adalah 6 ton.",
+          "Stok maksimum terjadi pada hari Rabu."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.99
+    },
+    "tags": [
+      "statistics-and-data",
+      "graph",
+      "bar-chart",
+      "stock",
+      "cumulative-data",
+      "maximum"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2025-014",
+    "source": {
+      "exam": "UTBK",
+      "year": 2025,
+      "session": "UTBK",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, UTBK 2025/TPS/PM/14"
+    },
+    "content": {
+      "question": "Perhatikan data pasokan dan penjualan beras mentik wangi pada diagram. Tentukan apakah pernyataan berikut benar atau salah.\n\n(1) Pada minggu itu terjadi kekosongan stok pada tiga hari.\n(2) Stok beras mentik wangi pada minggu itu sebanyak 5 ton pada hari Selasa dan Rabu.\n(3) Rata-rata stok beras mentik wangi per hari pada minggu itu adalah 3 ton.",
+      "options": [
+        "Ya",
+        "Tidak"
+      ],
+      "answer": "Pernyataan (1): Ya; Pernyataan (2): Tidak; Pernyataan (3): Tidak",
+      "explanation": "Stok kumulatif per hari adalah 2, 4, 6, 0, 2, 0, dan 0 ton. Kekosongan stok terjadi pada tiga hari, yaitu Kamis, Sabtu, dan Minggu. Stok Selasa adalah 4 ton dan Rabu 6 ton, bukan 5 ton. Rata-rata stok adalah 2 ton, bukan 3 ton.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Statistics & Data",
+      "subtopic": "Graph",
+      "skills": [
+        "Membaca diagram batang",
+        "Menghitung stok kumulatif",
+        "Menghitung rata-rata",
+        "Memvalidasi pernyataan berdasarkan data"
+      ],
+      "skill_tree_ids": [
+        "PM.STATS.GRAPH"
+      ],
+      "prerequisites": [
+        "PM.ALGEBRA.BASIC_OPERATIONS",
+        "PM.STATS.DATA_INTERPRETATION",
+        "PM.STATS.MEAN"
+      ]
+    },
+    "difficulty": {
+      "overall": 4,
+      "concept": 3,
+      "reasoning": 4,
+      "calculation": 4,
+      "reading": 3,
+      "time_pressure": 4
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "data_interpretation",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "data_interpretation",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 5,
+      "requires_formula": true,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Menggunakan data pasokan atau penjualan sebagai nilai stok harian secara langsung, serta menghitung rata-rata tanpa terlebih dahulu menentukan stok kumulatif."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-GRAPH-STOCK-002",
+        "family": "graph_statement_validation",
+        "pattern": "Gunakan data stok yang diperoleh dari grafik untuk menentukan benar atau salah beberapa pernyataan.",
+        "entities": [
+          "hari",
+          "pasokan",
+          "penjualan",
+          "stok",
+          "rata-rata",
+          "pernyataan"
+        ],
+        "operations": [
+          "cumulative_calculation",
+          "mean",
+          "comparison",
+          "boolean_validation"
+        ],
+        "relationships": [
+          "stok_hari_ini = stok_hari_sebelumnya + pasokan_hari_ini - penjualan_hari_ini",
+          "rata_rata_stok = total_stok / jumlah_hari"
+        ],
+        "question_targets": [
+          "jumlah hari dengan stok nol",
+          "stok pada hari tertentu",
+          "rata-rata stok"
+        ],
+        "constraints": [
+          "harus terdapat minimal satu pernyataan benar",
+          "harus terdapat minimal satu pernyataan salah",
+          "semua pernyataan harus dapat diverifikasi dari data grafik"
+        ],
+        "difficulty_scaling": {
+          "easy": "Gunakan dua pernyataan sederhana berdasarkan data langsung.",
+          "medium": "Gunakan tiga pernyataan yang membutuhkan stok kumulatif dan rata-rata.",
+          "hard": "Gabungkan rata-rata, perubahan kumulatif, dan beberapa pernyataan yang saling terkait."
+        },
+        "distractor_strategy": [
+          "Gunakan nilai stok yang dekat tetapi tidak tepat.",
+          "Gunakan jumlah hari yang hampir benar.",
+          "Gunakan rata-rata dari data mentah, bukan rata-rata stok."
+        ]
+      },
+      "answer_logic": {
+        "method": "Hitung stok kumulatif setiap hari, kemudian evaluasi masing-masing pernyataan.",
+        "formula": "S_t = S_(t-1) + P_t - J_t; mean = ΣS_t / n",
+        "verification": [
+          "Stok harian = 2, 4, 6, 0, 2, 0, 0 ton.",
+          "Jumlah hari dengan stok nol = 3.",
+          "Rata-rata stok = 2 ton."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.99
+    },
+    "tags": [
+      "statistics-and-data",
+      "graph",
+      "bar-chart",
+      "stock",
+      "mean",
+      "statement-validation"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2025-015",
+    "source": {
+      "exam": "UTBK",
+      "year": 2025,
+      "session": "UTBK",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, UTBK 2025/TPS/PM/15"
+    },
+    "content": {
+      "question": "Di suatu grosir beras, disediakan berbagai jenis beras. Salah satu jenis yang dijual oleh pedagang grosir itu adalah beras mentik wangi. Data pasokan dan terjual beras mentik wangi (dalam ton) tiap hari pada satu minggu disajikan dalam diagram berikut. Berdasarkan pengalaman pedagang, biaya operasional akan tercukupi khusus untuk mentik wangi jika sudah terjual 70% pada minggu itu. Jika 1 kg beras mentik wangi dijual dengan harga Rp20.000,00, keuntungan pedagang khusus dari beras mentik wangi pada minggu itu adalah... juta rupiah.",
+      "options": [
+        "42",
+        "90",
+        "280",
+        "420",
+        "980"
+      ],
+      "answer": "E",
+      "explanation": "Jumlah beras mentik wangi yang terjual selama satu minggu adalah 70 ton. Sebanyak 70% dari 70 ton adalah 49 ton = 49.000 kg. Dengan harga Rp20.000,00 per kg, nilai penjualan adalah Rp980.000.000,00 atau 980 juta rupiah.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Statistics & Data",
+      "subtopic": "Graph",
+      "skills": [
+        "Membaca diagram batang",
+        "Menjumlahkan data pada grafik",
+        "Menghitung persentase",
+        "Melakukan konversi satuan",
+        "Menghitung nilai berdasarkan data"
+      ],
+      "skill_tree_ids": [
+        "PM.STATS.GRAPH"
+      ],
+      "prerequisites": [
+        "PM.ALGEBRA.BASIC_OPERATIONS",
+        "PM.ARITH.PERCENTAGE",
+        "PM.ARITH.UNIT_CONVERSION"
+      ]
+    },
+    "difficulty": {
+      "overall": 4,
+      "concept": 3,
+      "reasoning": 4,
+      "calculation": 4,
+      "reading": 3,
+      "time_pressure": 4
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "quantitative_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 4,
+      "requires_formula": false,
+      "requires_comparison": false,
+      "requires_inference": true,
+      "common_trap": "Lupa mengubah ton menjadi kilogram atau langsung menggunakan 70% dari satu nilai harian."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-GRAPH-STOCK-003",
+        "family": "percentage_value_from_graph",
+        "pattern": "Jumlahkan data penjualan dari grafik, ambil persentase tertentu, konversi satuan, lalu hitung nilai penjualan.",
+        "entities": [
+          "hari",
+          "penjualan",
+          "total_penjualan",
+          "persentase",
+          "massa",
+          "harga_per_kg"
+        ],
+        "operations": [
+          "sum",
+          "percentage",
+          "unit_conversion",
+          "multiplication"
+        ],
+        "relationships": [
+          "total_penjualan = Σpenjualan_harian",
+          "jumlah_target = total_penjualan × persentase",
+          "kg = ton × 1000",
+          "nilai = kg × harga_per_kg"
+        ],
+        "question_targets": [
+          "nilai penjualan berdasarkan persentase dari total penjualan"
+        ],
+        "constraints": [
+          "nilai persentase harus menghasilkan jumlah yang masuk akal",
+          "hasil konversi satuan harus konsisten",
+          "hasil akhir harus mudah dibaca dalam juta rupiah"
+        ],
+        "difficulty_scaling": {
+          "easy": "Gunakan persentase sederhana.",
+          "medium": "Gunakan persentase dan konversi ton ke kilogram.",
+          "hard": "Tambahkan diskon, margin keuntungan, atau beberapa tahap persentase."
+        },
+        "distractor_strategy": [
+          "Gunakan total penjualan tanpa mengambil persentase.",
+          "Gunakan persentase terhadap data hari tertentu.",
+          "Lupa mengonversi ton ke kilogram.",
+          "Menggunakan harga per ton meskipun harga diberikan per kilogram."
+        ]
+      },
+      "answer_logic": {
+        "method": "Jumlahkan seluruh data terjual, hitung 70%-nya, konversi ton menjadi kilogram, lalu kalikan dengan harga per kilogram.",
+        "formula": "Nilai = (ΣJ_t × 70%) × 1000 × harga/kg",
+        "verification": [
+          "Total terjual = 70 ton.",
+          "70% × 70 ton = 49 ton.",
+          "49 ton = 49.000 kg.",
+          "49.000 × Rp20.000 = Rp980.000.000."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.99
+    },
+    "tags": [
+      "statistics-and-data",
+      "graph",
+      "bar-chart",
+      "percentage",
+      "unit-conversion",
+      "sales"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2025-016",
+    "source": {
+      "exam": "UTBK",
+      "year": 2025,
+      "session": "UTBK",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, UTBK 2025/TPS/PM/16"
+    },
+    "content": {
+      "question": "Di suatu grosir beras, disediakan berbagai jenis beras. Salah satu jenis yang dijual oleh pedagang grosir itu adalah beras mentik wangi. Data pasokan dan terjual beras mentik wangi (dalam ton) tiap hari pada satu minggu disajikan dalam diagram berikut. Berdasarkan pengalaman pedagang, stok mentik wangi akan aman dalam satu hari jika stok lebih dari rata-rata stok harian ditambah 1/4 simpangan baku. Pedagang akan aman untuk menyuplai kebutuhan pelanggan pada hari...",
+      "options": [
+        "Senin dan Selasa",
+        "Selasa dan Rabu",
+        "Rabu dan Kamis",
+        "Kamis dan Minggu",
+        "Jumat dan Minggu"
+      ],
+      "answer": "B",
+      "explanation": "Stok harian adalah 2, 4, 6, 0, 2, 0, dan 0 ton. Rata-rata stok = 2 ton. Simpangan baku populasi sekitar 2,14 ton sehingga batas aman adalah sekitar 2,54 ton. Stok yang lebih besar dari batas tersebut terdapat pada Selasa dan Rabu.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Statistics & Data",
+      "subtopic": "Graph",
+      "skills": [
+        "Membaca diagram batang",
+        "Menghitung stok kumulatif",
+        "Menghitung rata-rata",
+        "Menghitung simpangan baku",
+        "Membandingkan data dengan suatu batas"
+      ],
+      "skill_tree_ids": [
+        "PM.STATS.GRAPH"
+      ],
+      "prerequisites": [
+        "PM.STATS.MEAN",
+        "PM.STATS.STANDARD_DEVIATION",
+        "PM.STATS.DATA_INTERPRETATION"
+      ]
+    },
+    "difficulty": {
+      "overall": 5,
+      "concept": 5,
+      "reasoning": 5,
+      "calculation": 5,
+      "reading": 3,
+      "time_pressure": 5
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "data_interpretation",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "data_interpretation",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 5,
+      "requires_formula": true,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Salah menghitung stok kumulatif, rata-rata, simpangan baku, atau batas aman."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-GRAPH-STOCK-004",
+        "family": "statistical_threshold_from_graph",
+        "pattern": "Gunakan data grafik untuk menghitung stok kumulatif, rata-rata, simpangan baku, dan menentukan data yang melewati batas statistik tertentu.",
+        "entities": [
+          "hari",
+          "pasokan",
+          "penjualan",
+          "stok",
+          "mean",
+          "standard_deviation",
+          "threshold"
+        ],
+        "operations": [
+          "cumulative_calculation",
+          "mean",
+          "variance",
+          "square_root",
+          "comparison"
+        ],
+        "relationships": [
+          "stok_hari_ini = stok_hari_sebelumnya + pasokan_hari_ini - penjualan_hari_ini",
+          "mean = Σstok / n",
+          "standard_deviation = √(Σ(stok - mean)^2 / n)",
+          "safe_threshold = mean + fraction × standard_deviation"
+        ],
+        "question_targets": [
+          "hari dengan stok di atas batas aman"
+        ],
+        "constraints": [
+          "data harus menghasilkan simpangan baku yang dapat dihitung",
+          "batas aman harus dapat membedakan hari yang aman dan tidak aman",
+          "data harus menghasilkan jawaban yang unik"
+        ],
+        "difficulty_scaling": {
+          "easy": "Berikan rata-rata atau simpangan baku secara langsung.",
+          "medium": "Minta menghitung rata-rata dan simpangan baku dari data sederhana.",
+          "hard": "Gabungkan pembacaan grafik, stok kumulatif, mean, simpangan baku, dan threshold."
+        },
+        "distractor_strategy": [
+          "Gunakan hari dengan stok terbesar tanpa memperhatikan threshold.",
+          "Gunakan rata-rata sebagai batas aman.",
+          "Gunakan mean + simpangan baku penuh alih-alih seperempat simpangan baku."
+        ]
+      },
+      "answer_logic": {
+        "method": "Hitung stok harian, rata-rata, simpangan baku, batas aman, kemudian bandingkan setiap nilai stok dengan batas tersebut.",
+        "formula": "S_t = S_(t-1) + P_t - J_t; μ = ΣS_t/n; σ = √(Σ(S_t-μ)^2/n); batas aman = μ + σ/4",
+        "verification": [
+          "Stok harian = 2, 4, 6, 0, 2, 0, 0.",
+          "Mean = 2 ton.",
+          "Simpangan baku populasi ≈ 2,14 ton.",
+          "Batas aman ≈ 2,54 ton.",
+          "Hari aman = Selasa dan Rabu."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.98,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "statistics-and-data",
+      "graph",
+      "bar-chart",
+      "mean",
+      "standard-deviation",
+      "threshold",
+      "stock"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2024-GEL2-058",
+    "source": {
+      "exam": "UTBK",
+      "year": 2024,
+      "session": "Gel.2",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, halaman sumber yang diberikan, UTBK 2024/TPS/PM/Gel.2/58"
+    },
+    "content": {
+      "question": "Sebuah kolam renang memiliki tinggi AB = 150 cm, ∠ACB = θ dengan tan θ = 3/40, dan |PA| : |AC| = 5 : 4. Panjang permukaan kolam renang adalah ... m.",
+      "options": [
+        "35",
+        "45",
+        "54",
+        "63",
+        "72"
+      ],
+      "answer": "B",
+      "explanation": "Diketahui tan θ = AB/AC = 3/40. Dengan AB = 150 cm, diperoleh AC = 2000 cm = 20 m. Karena PA : AC = 5 : 4, maka PA = 25 m. Panjang permukaan kolam adalah PC = PA + AC = 45 m.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Geometry & Measurement",
+      "subtopic": "Solid Geometry",
+      "skills": [
+        "Menggunakan perbandingan trigonometri pada segitiga",
+        "Menentukan panjang sisi berdasarkan nilai tangen",
+        "Menggunakan perbandingan panjang",
+        "Menentukan panjang keseluruhan suatu bangun"
+      ],
+      "skill_tree_ids": [
+        "PM.GM.SOLID_GEOMETRY"
+      ],
+      "prerequisites": [
+        "PM.GM.TRIANGLE",
+        "PM.GM.TRIGONOMETRY",
+        "PM.ALGEBRA.RATIO"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 3,
+      "reasoning": 3,
+      "calculation": 3,
+      "reading": 3,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "spatial_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": true,
+      "requires_comparison": false,
+      "requires_inference": true,
+      "common_trap": "Salah menggunakan definisi tangen atau salah melakukan konversi dari sentimeter ke meter."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-GM-LENGTH-001",
+        "family": "trapezoidal_pool_length",
+        "pattern": "Gunakan tinggi dan nilai tangen untuk menentukan sisi, kemudian gunakan perbandingan panjang untuk mendapatkan panjang permukaan total.",
+        "entities": [
+          "AB",
+          "AC",
+          "PA",
+          "PC",
+          "theta"
+        ],
+        "operations": [
+          "trigonometric_ratio",
+          "division",
+          "ratio",
+          "unit_conversion",
+          "addition"
+        ],
+        "relationships": [
+          "tan(theta) = AB / AC",
+          "PA : AC = 5 : 4",
+          "PC = PA + AC"
+        ],
+        "question_targets": [
+          "panjang permukaan kolam"
+        ],
+        "constraints": [
+          "nilai tan(theta) harus menghasilkan AC yang mudah dihitung",
+          "rasio PA:AC harus valid",
+          "hasil akhir harus positif"
+        ],
+        "difficulty_scaling": {
+          "easy": "Berikan salah satu panjang secara langsung.",
+          "medium": "Gunakan rasio trigonometri dan perbandingan panjang.",
+          "hard": "Gabungkan beberapa rasio dan konversi satuan."
+        },
+        "distractor_strategy": [
+          "Gunakan nilai AC sebagai jawaban.",
+          "Gunakan nilai PA sebagai jawaban.",
+          "Lupa mengonversi cm ke m."
+        ]
+      },
+      "answer_logic": {
+        "method": "Gunakan tan(theta) untuk mencari AC, gunakan rasio PA:AC untuk mencari PA, kemudian jumlahkan PA dan AC.",
+        "formula": "tan(theta) = AB/AC; PA/AC = 5/4; PC = PA + AC",
+        "verification": [
+          "AC = 20 m",
+          "PA = 25 m",
+          "PC = 45 m"
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "human_and_automated",
+      "answer_confidence": 1.0,
+      "explanation_quality": 1.0
+    },
+    "tags": [
+      "geometry-and-measurement",
+      "solid-geometry",
+      "trigonometry",
+      "ratio",
+      "length"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2024-GEL2-059",
+    "source": {
+      "exam": "UTBK",
+      "year": 2024,
+      "session": "Gel.2",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, halaman sumber yang diberikan, UTBK 2024/TPS/PM/Gel.2/59"
+    },
+    "content": {
+      "question": "Perbandingan volume bagian kolam renang yang beralas datar dengan yang beralas miring adalah...",
+      "options": [
+        "5 : 2",
+        "5 : 3",
+        "6 : 4",
+        "7 : 5",
+        "7 : 4"
+      ],
+      "answer": "A",
+      "explanation": "Kedua bagian memiliki panjang dan lebar yang sama, sehingga perbandingan volumenya bergantung pada perbandingan luas penampang. Berdasarkan hubungan pada gambar, V1/V2 = 2PA/AC. Dengan PA : AC = 5 : 4, diperoleh V1/V2 = 10/4 = 5/2.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Geometry & Measurement",
+      "subtopic": "Solid Geometry",
+      "skills": [
+        "Menentukan perbandingan volume bangun ruang",
+        "Menggunakan perbandingan panjang",
+        "Menganalisis penampang bangun ruang"
+      ],
+      "skill_tree_ids": [
+        "PM.GM.SOLID_GEOMETRY"
+      ],
+      "prerequisites": [
+        "PM.GM.AREA",
+        "PM.GM.VOLUME",
+        "PM.ALGEBRA.RATIO"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 3,
+      "reasoning": 3,
+      "calculation": 2,
+      "reading": 2,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "comparison",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "spatial_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 2,
+      "requires_formula": true,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Menganggap kedua bagian memiliki volume yang sama karena memiliki panjang dan lebar yang sama tanpa memperhatikan bentuk penampang."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-GM-VOLUME-RATIO-001",
+        "family": "volume_ratio_solid_sections",
+        "pattern": "Tentukan perbandingan volume dua bagian bangun ruang berdasarkan perbandingan luas penampangnya.",
+        "entities": [
+          "PA",
+          "AC",
+          "V1",
+          "V2"
+        ],
+        "operations": [
+          "ratio",
+          "multiplication",
+          "division",
+          "simplification"
+        ],
+        "relationships": [
+          "volume = cross_section_area × length",
+          "V1/V2 = cross_section_area_1/cross_section_area_2"
+        ],
+        "question_targets": [
+          "rasio volume dua bagian kolam"
+        ],
+        "constraints": [
+          "kedua bagian memiliki panjang ekstrusi yang sama",
+          "rasio menghasilkan bentuk sederhana"
+        ],
+        "difficulty_scaling": {
+          "easy": "Berikan luas penampang secara langsung.",
+          "medium": "Gunakan rasio sisi untuk memperoleh rasio volume.",
+          "hard": "Gunakan beberapa dimensi yang harus diturunkan terlebih dahulu."
+        },
+        "distractor_strategy": [
+          "Gunakan rasio PA:AC secara langsung tanpa faktor 2.",
+          "Gunakan rasio panjang sebagai rasio volume.",
+          "Gunakan angka yang belum disederhanakan."
+        ]
+      },
+      "answer_logic": {
+        "method": "Bandingkan luas penampang kedua bagian karena panjang ekstrusinya sama.",
+        "formula": "V1/V2 = (2 × PA)/AC",
+        "verification": [
+          "PA : AC = 5 : 4",
+          "V1/V2 = 2(5)/4 = 5/2"
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "human_and_automated",
+      "answer_confidence": 1.0,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "geometry-and-measurement",
+      "solid-geometry",
+      "volume",
+      "ratio",
+      "cross-section"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2024-GEL2-060",
+    "source": {
+      "exam": "UTBK",
+      "year": 2024,
+      "session": "Gel.2",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, halaman sumber yang diberikan, UTBK 2024/TPS/PM/Gel.2/60"
+    },
+    "content": {
+      "question": "Jika luas permukaan kolam 450 m², volume kolam renang adalah ... m³.",
+      "options": [
+        "515",
+        "520",
+        "525",
+        "530",
+        "535"
+      ],
+      "answer": "C",
+      "explanation": "Dari hasil sebelumnya, PC = 45 m dan QB = 25 m. Karena luas permukaan adalah 450 m², maka panjang kolam l memenuhi 45l = 450 sehingga l = 10 m. Luas penampang trapesium = 1/2 × (45 + 25) × 1,5 = 52,5 m². Volume = 52,5 × 10 = 525 m³.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Geometry & Measurement",
+      "subtopic": "Solid Geometry",
+      "skills": [
+        "Menentukan panjang bangun dari luas permukaan",
+        "Menghitung luas trapesium",
+        "Menghitung volume prisma",
+        "Menggunakan beberapa dimensi dalam satu bangun ruang"
+      ],
+      "skill_tree_ids": [
+        "PM.GM.SOLID_GEOMETRY"
+      ],
+      "prerequisites": [
+        "PM.GM.TRAPEZOID",
+        "PM.GM.AREA",
+        "PM.GM.VOLUME"
+      ]
+    },
+    "difficulty": {
+      "overall": 4,
+      "concept": 4,
+      "reasoning": 4,
+      "calculation": 4,
+      "reading": 3,
+      "time_pressure": 4
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "spatial_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 4,
+      "requires_formula": true,
+      "requires_comparison": false,
+      "requires_inference": true,
+      "common_trap": "Menggunakan luas permukaan sebagai volume atau lupa menghitung luas penampang trapesium sebelum menentukan volume."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-GM-PRISM-VOLUME-001",
+        "family": "prism_from_surface_area",
+        "pattern": "Gunakan luas permukaan untuk menentukan panjang prisma, kemudian hitung volume berdasarkan luas penampang.",
+        "entities": [
+          "PC",
+          "QB",
+          "AB",
+          "surface_area",
+          "l",
+          "volume"
+        ],
+        "operations": [
+          "division",
+          "trapezoid_area",
+          "multiplication"
+        ],
+        "relationships": [
+          "surface_area = PC × l",
+          "cross_section_area = 1/2 × (PC + QB) × AB",
+          "volume = cross_section_area × l"
+        ],
+        "question_targets": [
+          "volume kolam renang"
+        ],
+        "constraints": [
+          "luas permukaan harus menghasilkan panjang l yang positif",
+          "semua dimensi harus konsisten",
+          "volume harus menghasilkan jawaban unik"
+        ],
+        "difficulty_scaling": {
+          "easy": "Berikan panjang prisma secara langsung.",
+          "medium": "Gunakan luas permukaan untuk menentukan panjang.",
+          "hard": "Salah satu ukuran penampang juga harus ditentukan terlebih dahulu."
+        },
+        "distractor_strategy": [
+          "Gunakan luas permukaan sebagai volume.",
+          "Lupa faktor 1/2 pada luas trapesium.",
+          "Lupa mengalikan luas penampang dengan panjang prisma."
+        ]
+      },
+      "answer_logic": {
+        "method": "Tentukan panjang kolam dari luas permukaan, hitung luas penampang trapesium, lalu kalikan dengan panjang kolam.",
+        "formula": "l = surface_area / PC; V = 1/2 × (PC + QB) × AB × l",
+        "verification": [
+          "l = 450/45 = 10 m",
+          "Luas penampang = 52,5 m²",
+          "V = 525 m³"
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "human_and_automated",
+      "answer_confidence": 1.0,
+      "explanation_quality": 1.0
+    },
+    "tags": [
+      "geometry-and-measurement",
+      "solid-geometry",
+      "trapezoid",
+      "surface-area",
+      "volume",
+      "prism"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2024-GEL2-061",
+    "source": {
+      "exam": "UTBK",
+      "year": 2024,
+      "session": "Gel.2",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, halaman sumber yang diberikan, UTBK 2024/TPS/PM/Gel.2/61"
+    },
+    "content": {
+      "question": "Jika diketahui volume kolam renang 420 m³, lebar kolam adalah ... m.",
+      "options": [
+        "6",
+        "7,5",
+        "8",
+        "8,5",
+        "9"
+      ],
+      "answer": "C",
+      "explanation": "Luas penampang trapesium adalah 1/2 × (45 + 25) × 1,5 = 52,5 m². Dengan volume 420 m³, panjang kolam l = 420/52,5 = 8 m.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Geometry & Measurement",
+      "subtopic": "Solid Geometry",
+      "skills": [
+        "Menghitung volume prisma",
+        "Menggunakan luas trapesium sebagai luas penampang",
+        "Menentukan dimensi bangun ruang dari volume"
+      ],
+      "skill_tree_ids": [
+        "PM.GM.SOLID_GEOMETRY"
+      ],
+      "prerequisites": [
+        "PM.GM.TRAPEZOID",
+        "PM.GM.AREA",
+        "PM.GM.VOLUME"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 3,
+      "reasoning": 3,
+      "calculation": 3,
+      "reading": 2,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "spatial_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": true,
+      "requires_comparison": false,
+      "requires_inference": true,
+      "common_trap": "Menggunakan volume sebagai luas penampang atau lupa membagi volume dengan luas penampang."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-GM-PRISM-DIMENSION-001",
+        "family": "find_prism_length_from_volume",
+        "pattern": "Diberikan volume prisma dan dimensi penampang, tentukan panjang atau lebar prisma.",
+        "entities": [
+          "PC",
+          "QB",
+          "AB",
+          "volume",
+          "l"
+        ],
+        "operations": [
+          "trapezoid_area",
+          "division",
+          "multiplication"
+        ],
+        "relationships": [
+          "cross_section_area = 1/2 × (PC + QB) × AB",
+          "volume = cross_section_area × l"
+        ],
+        "question_targets": [
+          "panjang atau lebar kolam"
+        ],
+        "constraints": [
+          "volume harus habis dibagi luas penampang",
+          "hasil l harus positif",
+          "dimensi harus realistis"
+        ],
+        "difficulty_scaling": {
+          "easy": "Berikan luas penampang secara langsung.",
+          "medium": "Minta menghitung luas penampang terlebih dahulu.",
+          "hard": "Salah satu ukuran penampang juga harus ditentukan sebelum mencari panjang."
+        },
+        "distractor_strategy": [
+          "Gunakan volume sebagai luas penampang.",
+          "Lupa faktor 1/2 pada trapesium.",
+          "Lupa membagi volume dengan luas penampang."
+        ]
+      },
+      "answer_logic": {
+        "method": "Hitung luas penampang trapesium kemudian bagi volume dengan luas penampang.",
+        "formula": "l = V / [1/2 × (PC + QB) × AB]",
+        "verification": [
+          "Luas penampang = 52,5 m²",
+          "l = 420/52,5 = 8 m"
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "human_and_automated",
+      "answer_confidence": 1.0,
+      "explanation_quality": 1.0
+    },
+    "tags": [
+      "geometry-and-measurement",
+      "solid-geometry",
+      "trapezoid",
+      "volume",
+      "prism",
+      "dimension"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2025-017",
+    "source": {
+      "exam": "UTBK",
+      "year": 2025,
+      "session": "UTBK",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, UTBK 2025/TPS/PM/17"
+    },
+    "content": {
+      "question": "Seorang dokter gigi menjadikan salah satu ruangan di rumahnya untuk praktik. Untuk efisiensi dan menjaga estetika, ruangan tersebut disekat dengan menggunakan penyekat persegi yang terbuat dari x kaca berukuran 58 cm × 58 cm yang diletakkan secara berdampingan. Satu sisi digunakan untuk ruang layanan, sisi yang lain digunakan untuk ruang administrasi. Jika f adalah fungsi yang menyatakan luas penyekat (dalam m²), f(x) = ...",
+      "options": [
+        "0,3364x",
+        "1,16x",
+        "33,642x",
+        "116x",
+        "3364x"
+      ],
+      "answer": "A",
+      "explanation": "Luas satu kaca adalah 58 × 58 = 3364 cm². Untuk x kaca, luas seluruh penyekat adalah 3364x cm². Karena 1 m² = 10.000 cm², maka f(x) = 3364x/10.000 = 0,3364x m².",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Algebra & Function",
+      "subtopic": "Function",
+      "skills": [
+        "Menyusun fungsi dari suatu hubungan kontekstual",
+        "Menghitung luas persegi",
+        "Melakukan konversi satuan luas",
+        "Menyatakan luas sebagai fungsi banyaknya objek"
+      ],
+      "skill_tree_ids": [
+        "PM.AF.FUNCTION"
+      ],
+      "prerequisites": [
+        "PM.GM.SQUARE_AREA",
+        "PM.ALGEBRA.BASIC_MULTIPLICATION",
+        "PM.GM.UNIT_CONVERSION"
+      ]
+    },
+    "difficulty": {
+      "overall": 2,
+      "concept": 2,
+      "reasoning": 2,
+      "calculation": 2,
+      "reading": 2,
+      "time_pressure": 2
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "quantitative_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": true,
+      "requires_comparison": false,
+      "requires_inference": true,
+      "common_trap": "Lupa melakukan konversi cm² ke m² sehingga menggunakan 3364x sebagai jawaban."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-AF-GLASS-001",
+        "family": "area_function_from_repeated_square_tiles",
+        "pattern": "Tentukan fungsi luas total berdasarkan jumlah kaca persegi yang identik.",
+        "entities": [
+          "jumlah_kaca",
+          "panjang_sisi_kaca",
+          "luas_satu_kaca",
+          "luas_total"
+        ],
+        "operations": [
+          "square_area",
+          "multiplication",
+          "unit_conversion"
+        ],
+        "relationships": [
+          "luas_satu_kaca = sisi × sisi",
+          "luas_total = jumlah_kaca × luas_satu_kaca",
+          "luas_m2 = luas_cm2 / 10000"
+        ],
+        "question_targets": [
+          "fungsi luas penyekat terhadap jumlah kaca"
+        ],
+        "constraints": [
+          "sisi kaca harus positif",
+          "jumlah kaca harus bilangan bulat positif",
+          "hasil fungsi dalam m²"
+        ],
+        "difficulty_scaling": {
+          "easy": "Berikan langsung jumlah dan sisi kaca.",
+          "medium": "Tambahkan konversi satuan.",
+          "hard": "Tambahkan dimensi bingkai atau susunan kaca."
+        },
+        "distractor_strategy": [
+          "Gunakan luas dalam cm² tanpa konversi.",
+          "Gunakan keliling persegi.",
+          "Gunakan panjang sisi dikali jumlah kaca tanpa menghitung luas."
+        ]
+      },
+      "answer_logic": {
+        "method": "Hitung luas satu kaca, kalikan dengan x, lalu konversikan cm² menjadi m².",
+        "formula": "f(x) = x × 58² / 10000",
+        "verification": [
+          "58² = 3364 cm²",
+          "3364x cm² = 0,3364x m²"
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "human_and_automated",
+      "answer_confidence": 1.0,
+      "explanation_quality": 1.0
+    },
+    "tags": [
+      "algebra-and-function",
+      "function",
+      "square-area",
+      "unit-conversion",
+      "modeling"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2025-018",
+    "source": {
+      "exam": "UTBK",
+      "year": 2025,
+      "session": "UTBK",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, UTBK 2025/TPS/PM/18"
+    },
+    "content": {
+      "question": "Seorang dokter gigi menjadikan salah satu ruangan di rumahnya untuk praktik. Untuk efisiensi dan menjaga estetika, ruangan tersebut disekat dengan menggunakan penyekat persegi yang terbuat dari x kaca berukuran 58 cm × 58 cm yang diletakkan secara berdampingan. Satu sisi digunakan untuk ruang layanan, sisi yang lain digunakan untuk ruang administrasi. Jika x = 49, luas penyekat adalah ... m².",
+      "options": [
+        "4,02 × 4,02",
+        "4,03 × 4,03",
+        "4,06 × 4,06",
+        "4,10 × 4,10",
+        "4,20 × 4,20"
+      ],
+      "answer": "C",
+      "explanation": "Karena x = 49 dan penyekat berbentuk persegi, terdapat √49 = 7 kaca pada setiap sisi. Setiap kaca memiliki sisi 58 cm, sehingga panjang sisi penyekat adalah 7 × 58 = 406 cm = 4,06 m. Jadi luas penyekat adalah 4,06 × 4,06 m².",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Algebra & Function",
+      "subtopic": "Function",
+      "skills": [
+        "Menentukan ukuran susunan persegi",
+        "Menggunakan akar kuadrat",
+        "Menghitung panjang sisi berdasarkan jumlah objek",
+        "Melakukan konversi satuan panjang"
+      ],
+      "skill_tree_ids": [
+        "PM.AF.FUNCTION"
+      ],
+      "prerequisites": [
+        "PM.GM.SQUARE",
+        "PM.ALGEBRA.SQUARE_ROOT",
+        "PM.GM.UNIT_CONVERSION"
+      ]
+    },
+    "difficulty": {
+      "overall": 2,
+      "concept": 2,
+      "reasoning": 2,
+      "calculation": 2,
+      "reading": 2,
+      "time_pressure": 2
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "spatial_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": false,
+      "requires_comparison": false,
+      "requires_inference": true,
+      "common_trap": "Menggunakan 49 × 58 sebagai panjang sisi atau menganggap 49 kaca tersusun dalam satu baris."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-AF-GLASS-002",
+        "family": "square_tile_arrangement",
+        "pattern": "Tentukan ukuran sisi susunan persegi dari jumlah kaca identik yang disusun dalam baris dan kolom.",
+        "entities": [
+          "jumlah_kaca",
+          "jumlah_baris",
+          "panjang_sisi_kaca",
+          "panjang_sisi_penyekat"
+        ],
+        "operations": [
+          "square_root",
+          "multiplication",
+          "unit_conversion"
+        ],
+        "relationships": [
+          "jumlah_baris = √jumlah_kaca",
+          "sisi_penyekat = jumlah_baris × sisi_kaca"
+        ],
+        "question_targets": [
+          "panjang sisi penyekat"
+        ],
+        "constraints": [
+          "jumlah kaca harus merupakan kuadrat sempurna",
+          "susunan harus persegi",
+          "sisi kaca harus positif"
+        ],
+        "difficulty_scaling": {
+          "easy": "Gunakan jumlah kaca seperti 9, 16, atau 25.",
+          "medium": "Gunakan 49, 64, atau 81.",
+          "hard": "Jumlah kaca atau dimensi lain harus ditentukan terlebih dahulu."
+        },
+        "distractor_strategy": [
+          "Kalikan 49 langsung dengan 58.",
+          "Gunakan jumlah kaca sebagai jumlah baris.",
+          "Lupa mengubah cm ke m."
+        ]
+      },
+      "answer_logic": {
+        "method": "Cari banyak kaca pada satu sisi dengan √49, kemudian kalikan dengan panjang sisi satu kaca.",
+        "formula": "sisi_penyekat = √x × 58 cm",
+        "verification": [
+          "√49 = 7",
+          "7 × 58 = 406 cm",
+          "406 cm = 4,06 m"
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "human_and_automated",
+      "answer_confidence": 1.0,
+      "explanation_quality": 1.0
+    },
+    "tags": [
+      "algebra-and-function",
+      "function",
+      "square-arrangement",
+      "square-root",
+      "unit-conversion"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2025-019",
+    "source": {
+      "exam": "UTBK",
+      "year": 2025,
+      "session": "UTBK",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, UTBK 2025/TPS/PM/19"
+    },
+    "content": {
+      "question": "Seorang dokter gigi menjadikan salah satu ruangan di rumahnya untuk praktik. Untuk efisiensi dan menjaga estetika, ruangan tersebut disekat dengan menggunakan penyekat persegi yang terbuat dari x kaca berukuran 58 cm × 58 cm yang diletakkan secara berdampingan. Satu sisi digunakan untuk ruang layanan, sisi yang lain digunakan untuk ruang administrasi. Agar lebih cantik dan menarik, tiap kaca penyusun sekat tersebut diberi bingkai berupa plat logam warna keemasan. Jika lebar bingkai adalah 2 cm, luas penyekat ruangan yang terdiri atas 64 kaca adalah ... m.",
+      "options": [
+        "4,20 × 4,20",
+        "4,34 × 4,34",
+        "4,64 × 4,64",
+        "4,80 × 4,80",
+        "4,96 × 4,96"
+      ],
+      "answer": "E",
+      "explanation": "Terdapat 64 kaca yang disusun membentuk persegi, sehingga terdapat √64 = 8 kaca pada setiap sisi. Setiap kaca berukuran 58 cm dan bingkai memiliki lebar 2 cm di setiap sisi, sehingga ukuran luar satu kaca adalah 58 + 2 + 2 = 62 cm. Panjang sisi keseluruhan adalah 8 × 62 = 496 cm = 4,96 m. Jadi luas penyekat dinyatakan sebagai 4,96 × 4,96 m².",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Algebra & Function",
+      "subtopic": "Function",
+      "skills": [
+        "Menentukan ukuran susunan persegi",
+        "Menggunakan akar kuadrat",
+        "Menentukan ukuran total dengan tambahan bingkai",
+        "Melakukan konversi satuan panjang"
+      ],
+      "skill_tree_ids": [
+        "PM.AF.FUNCTION"
+      ],
+      "prerequisites": [
+        "PM.GM.SQUARE",
+        "PM.ALGEBRA.SQUARE_ROOT",
+        "PM.GM.UNIT_CONVERSION"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 3,
+      "reasoning": 3,
+      "calculation": 3,
+      "reading": 3,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "spatial_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 4,
+      "requires_formula": false,
+      "requires_comparison": false,
+      "requires_inference": true,
+      "common_trap": "Menambahkan lebar bingkai hanya satu kali, padahal bingkai berada pada kedua sisi kaca."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-AF-GLASS-003",
+        "family": "square_tiles_with_frame",
+        "pattern": "Tentukan ukuran susunan persegi dengan memperhitungkan dimensi tambahan pada setiap kaca.",
+        "entities": [
+          "jumlah_kaca",
+          "jumlah_baris",
+          "sisi_kaca",
+          "lebar_bingkai",
+          "sisi_total"
+        ],
+        "operations": [
+          "square_root",
+          "addition",
+          "multiplication",
+          "unit_conversion"
+        ],
+        "relationships": [
+          "jumlah_baris = √jumlah_kaca",
+          "sisi_luar_satu_kaca = sisi_kaca + 2 × lebar_bingkai",
+          "sisi_total = jumlah_baris × sisi_luar_satu_kaca"
+        ],
+        "question_targets": [
+          "panjang sisi penyekat setelah pemasangan bingkai"
+        ],
+        "constraints": [
+          "jumlah kaca harus merupakan kuadrat sempurna",
+          "lebar bingkai harus positif",
+          "bingkai berada pada kedua sisi dimensi kaca"
+        ],
+        "difficulty_scaling": {
+          "easy": "Berikan langsung jumlah baris dan ukuran kaca.",
+          "medium": "Minta menentukan jumlah baris dari jumlah kaca.",
+          "hard": "Tambahkan bingkai berbeda pada sisi yang berbeda."
+        },
+        "distractor_strategy": [
+          "Tambahkan lebar bingkai hanya satu kali.",
+          "Lupa mengubah cm ke m.",
+          "Gunakan jumlah kaca sebagai jumlah baris."
+        ]
+      },
+      "answer_logic": {
+        "method": "Tentukan banyak kaca pada setiap sisi, hitung ukuran luar satu kaca setelah diberi bingkai, lalu kalikan.",
+        "formula": "sisi_total = √x × (58 + 2 × 2) cm",
+        "verification": [
+          "√64 = 8",
+          "Ukuran luar satu kaca = 62 cm",
+          "8 × 62 = 496 cm",
+          "496 cm = 4,96 m"
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "human_and_automated",
+      "answer_confidence": 1.0,
+      "explanation_quality": 1.0
+    },
+    "tags": [
+      "algebra-and-function",
+      "function",
+      "square-arrangement",
+      "frame",
+      "square-root",
+      "unit-conversion"
+    ]
+  },
+
+  {
+    "id": "UTBK-PM-2025-020",
+    "source": {
+      "exam": "UTBK",
+      "year": 2025,
+      "session": "UTBK",
+      "section": "PM",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Platinum UTBK 2026 — Wangsit Om Jero / Beaglestude, UTBK 2025/TPS/PM/20"
+    },
+    "content": {
+      "question": "Seorang dokter gigi menjadikan salah satu ruangan di rumahnya untuk praktik. Untuk efisiensi dan menjaga estetika, ruangan tersebut disekat dengan menggunakan penyekat persegi yang terbuat dari x kaca berukuran 58 cm × 58 cm yang diletakkan secara berdampingan. Satu sisi digunakan untuk ruang layanan, sisi yang lain digunakan untuk ruang administrasi. Agar lebih cantik dan menarik, tiap kaca penyusun sekat tersebut diberi bingkai berupa plat logam warna keemasan. Jika lebar bingkai adalah 2 cm, diketahui biaya pemasangan kaca berbingkai adalah Rp250.000,00 per buah. Jika biaya pemasangan penyekat ruangan adalah Rp9.000.000,00, tinggi penyekat tersebut adalah ... m.",
+      "options": [
+        "3,60",
+        "3,72",
+        "3,84",
+        "4,34",
+        "4,48"
+      ],
+      "answer": "B",
+      "explanation": "Jumlah kaca = Rp9.000.000 / Rp250.000 = 36 kaca. Karena penyekat berbentuk persegi, jumlah kaca pada setiap sisi adalah √36 = 6. Ukuran luar satu kaca setelah diberi bingkai adalah 58 + 2(2) = 62 cm. Tinggi penyekat = 6 × 62 = 372 cm = 3,72 m.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Penalaran Matematika",
+      "topic": "Algebra & Function",
+      "subtopic": "Function",
+      "skills": [
+        "Menentukan jumlah objek dari biaya total",
+        "Menentukan ukuran susunan persegi",
+        "Menggunakan akar kuadrat",
+        "Menghitung ukuran objek dengan bingkai",
+        "Melakukan konversi satuan panjang"
+      ],
+      "skill_tree_ids": [
+        "PM.AF.FUNCTION"
+      ],
+      "prerequisites": [
+        "PM.ALGEBRA.ARITHMETIC",
+        "PM.GM.SQUARE",
+        "PM.ALGEBRA.SQUARE_ROOT",
+        "PM.GM.UNIT_CONVERSION"
+      ]
+    },
+    "difficulty": {
+      "overall": 4,
+      "concept": 3,
+      "reasoning": 4,
+      "calculation": 3,
+      "reading": 3,
+      "time_pressure": 4
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": true,
+      "reading_required": true,
+      "visual_required": true
+    },
+    "cognitive": {
+      "primary_skill": "quantitative_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 4,
+      "requires_formula": true,
+      "requires_comparison": false,
+      "requires_inference": true,
+      "common_trap": "Salah menghitung jumlah kaca dari biaya total, lupa bahwa bingkai menambah 4 cm pada sisi kaca, atau lupa mengonversi cm menjadi meter."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "PM-AF-GLASS-004",
+        "family": "square_tile_count_from_cost",
+        "pattern": "Tentukan jumlah kaca berdasarkan total biaya, kemudian tentukan dimensi penyekat dari susunan persegi dan ukuran kaca berbingkai.",
+        "entities": [
+          "total_cost",
+          "cost_per_glass",
+          "number_of_glasses",
+          "number_of_rows",
+          "glass_side",
+          "frame_width",
+          "total_side"
+        ],
+        "operations": [
+          "division",
+          "square_root",
+          "addition",
+          "multiplication",
+          "unit_conversion"
+        ],
+        "relationships": [
+          "jumlah_kaca = total_biaya / biaya_per_kaca",
+          "jumlah_baris = √jumlah_kaca",
+          "sisi_luar_satu_kaca = sisi_kaca + 2 × lebar_bingkai",
+          "tinggi_penyekat = jumlah_baris × sisi_luar_satu_kaca"
+        ],
+        "question_targets": [
+          "tinggi atau sisi penyekat"
+        ],
+        "constraints": [
+          "total biaya harus habis dibagi biaya per kaca",
+          "jumlah kaca harus merupakan kuadrat sempurna",
+          "lebar bingkai harus positif"
+        ],
+        "difficulty_scaling": {
+          "easy": "Berikan jumlah kaca secara langsung.",
+          "medium": "Tentukan jumlah kaca dari total biaya.",
+          "hard": "Gabungkan biaya, bingkai, susunan persegi, dan konversi satuan."
+        },
+        "distractor_strategy": [
+          "Lupa membagi biaya total dengan biaya per kaca.",
+          "Gunakan 36 sebagai jumlah kaca pada satu sisi.",
+          "Lupa faktor dua pada lebar bingkai.",
+          "Lupa konversi cm ke m."
+        ]
+      },
+      "answer_logic": {
+        "method": "Hitung jumlah kaca dari total biaya, cari banyak kaca pada setiap sisi, hitung ukuran luar kaca dengan bingkai, lalu tentukan tinggi penyekat.",
+        "formula": "tinggi = √(total_biaya / biaya_per_kaca) × (58 + 2 × 2) cm",
+        "verification": [
+          "Jumlah kaca = 36",
+          "√36 = 6",
+          "Ukuran luar satu kaca = 62 cm",
+          "Tinggi = 372 cm = 3,72 m"
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "human_and_automated",
+      "answer_confidence": 1.0,
+      "explanation_quality": 1.0
+    },
+    "tags": [
+      "algebra-and-function",
+      "function",
+      "cost",
+      "square-arrangement",
+      "frame",
+      "square-root",
+      "unit-conversion"
+    ]
+  }
+]
