@@ -1,0 +1,1775 @@
+[
+  {
+    "id": "LBI-WANGSIT-001",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 285"
+    },
+    "content": {
+      "question": "Bacalah teks berikut secara cermat. (1) Semua orang pasti mengenal pendidikan. (2) Pendidikan adalah proses internalisasi budaya ke dalam diri seseorang dan masyarakat sehingga membuat orang dan masyarakat beradab. (3) Pendidikan tidak hanya sarana transfer ilmu pengetahuan, tetapi lebih luas lagi, yakni sebagai sarana pembudayaan dan penyaluran nilai (enkulturisasi dan sosialisasi). (4) Anak harus mendapat pendidikan yang menyentuh dimensi dasar kemanusiaan. (5) Dimensi kemanusiaan itu mencakup sekurang-kurangnya tiga hal paling mendasar. Manakah gagasan utama paragraf ke-1?",
+      "options": [
+        "Pendidikan dikenal setiap orang",
+        "Pendidikan adalah internalisasi budaya",
+        "Pendidikan bukan sarana transfer ilmu",
+        "Pendidikan merupakan sarana pembudayaan",
+        "Pendidikan harus berdimensi kemanusiaan"
+      ],
+      "answer": "B",
+      "explanation": "Gagasan utama paragraf terdapat pada kalimat yang menjadi inti pembahasan. Pada paragraf ini, inti tersebut adalah bahwa pendidikan merupakan proses internalisasi budaya.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Main Idea, Simpulan & Ringkasan",
+      "subtopic": "Main Idea",
+      "skills": [
+        "Menentukan gagasan utama paragraf",
+        "Membedakan gagasan utama dan informasi pendukung",
+        "Menafsirkan inti paragraf"
+      ],
+      "skill_tree_ids": [
+        "LBI.MAIN_IDEA.PARAGRAPH"
+      ],
+      "prerequisites": [
+        "LBI.READING.BASIC_COMPREHENSION"
+      ]
+    },
+    "difficulty": {
+      "overall": 2,
+      "concept": 2,
+      "reasoning": 2,
+      "calculation": 1,
+      "reading": 3,
+      "time_pressure": 2
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "single_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "reading_comprehension",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 2,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Memilih kalimat pendukung tertentu sebagai gagasan utama."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_001",
+        "family": "paragraph_main_idea",
+        "pattern": "Berikan sebuah paragraf dengan satu gagasan utama dan beberapa kalimat pendukung, lalu tanyakan inti paragraf.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "identify_main_idea",
+          "distinguish_supporting_detail"
+        ],
+        "relationships": [
+          "main_idea -> supported_by -> supporting_details"
+        ],
+        "question_targets": [
+          "gagasan utama paragraf"
+        ],
+        "constraints": [
+          "satu opsi harus merangkum inti seluruh paragraf",
+          "distraktor harus berupa detail atau bagian yang terlalu sempit"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Gunakan detail pendukung sebagai pengecoh.",
+          "Gunakan opsi yang terlalu sempit.",
+          "Gunakan opsi yang benar secara lokal tetapi bukan inti paragraf."
+        ]
+      },
+      "answer_logic": {
+        "method": "Identifikasi inti pembahasan paragraf lalu cocokkan dengan opsi yang paling mencakup seluruh isi.",
+        "formula": "",
+        "verification": [
+          "Kalimat 2 dan 3 menjelaskan konsep pendidikan.",
+          "Opsi B paling mewakili inti pembahasan paragraf."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "main-idea",
+      "paragraph",
+      "reading-comprehension"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-002",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 285-286"
+    },
+    "content": {
+      "question": "Berdasarkan teks tentang sejarah Kebun Raya Bogor, ringkasan yang paling tepat adalah....",
+      "options": [
+        "Sejarah Kebun Raya Bogor melahirkan nilai kekayaan warisan",
+        "Sejarah dan perkembangan awal tapak sejarah Kebun Raya Bogor",
+        "Sejarah lahirnya Kebun Raya Bogor dan perkembangannya",
+        "Sejarah Kebun Raya Bogor mewarisi kekayaan dan melahirkan lembaga penelitian",
+        "Kontribusi Kebun Raya Bogor terhadap beberapa lembaga penelitian di Indonesia"
+      ],
+      "answer": "D",
+      "explanation": "Ringkasan harus mencakup ide-ide utama dari keseluruhan teks. Bacaan membahas warisan sejarah Kebun Raya Bogor sekaligus kontribusinya terhadap lahirnya lembaga penelitian.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Main Idea, Simpulan & Ringkasan",
+      "subtopic": "Ringkasan",
+      "skills": [
+        "Menentukan ringkasan bacaan",
+        "Menggabungkan ide pokok antarparagraf",
+        "Membedakan ringkasan dan detail spesifik"
+      ],
+      "skill_tree_ids": [
+        "LBI.SUMMARY.TEXT"
+      ],
+      "prerequisites": [
+        "LBI.MAIN_IDEA.PARAGRAPH"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 2,
+      "reasoning": 3,
+      "calculation": 1,
+      "reading": 4,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "reading_comprehension",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Memilih opsi yang hanya mencakup satu bagian atau satu aspek teks."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_002",
+        "family": "whole_text_summary",
+        "pattern": "Berikan teks multi-paragraf lalu pilih pernyataan yang paling mewakili keseluruhan isi.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "synthesize",
+          "compress_information"
+        ],
+        "relationships": [
+          "paragraph_ideas -> summarized_as -> overall_summary"
+        ],
+        "question_targets": [
+          "ringkasan keseluruhan teks"
+        ],
+        "constraints": [
+          "jawaban harus mencakup ide utama dari seluruh teks",
+          "hindari opsi yang hanya merangkum satu paragraf"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Gunakan detail spesifik.",
+          "Gunakan salah satu ide utama saja.",
+          "Gunakan kesimpulan yang terlalu sempit."
+        ]
+      },
+      "answer_logic": {
+        "method": "Identifikasi ide utama tiap bagian lalu gabungkan menjadi satu pernyataan yang mencakup keseluruhan teks.",
+        "formula": "",
+        "verification": [
+          "Teks membahas sejarah/warisan Kebun Raya Bogor.",
+          "Teks juga membahas lahirnya lembaga penelitian.",
+          "Opsi D mencakup kedua gagasan tersebut."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "summary",
+      "main-idea",
+      "text-synthesis"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-003",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 287"
+    },
+    "content": {
+      "question": "Simpulan teks tentang fungsi pendidikan yang paling tepat adalah....",
+      "options": [
+        "Tujuan pendidikan nasional di Indonesia telah mencakup segi kultural dan sosial dan menjangkau semua lapisan masyarakat dalam hal mencerdaskan bangsa serta menyiapkan tenaga kerja produktif",
+        "Pendidikan bertugas menjadikan peserta didik tumbuh dan berkembang potensinya, melestarikan nilai-nilai yang baik dan benar, serta menyiapkan tenaga produktif",
+        "Fungsi pendidikan nasional menurut Undang-Undang Nomor 20 Tahun 2003 selaras dengan pendapat Bock yang mengatakan bahwa peran pendidikan adalah memasyarakatkan ideologi",
+        "Kegiatan pendidikan memiliki misi bukan hanya menjadikan peserta didik tumbuh dan berkembang potensinya, melainkan juga menjaga dan melestarikan nilai-nilai yang dianggap baik dan benar",
+        "Pendidikan nasional menurut Undang-Undang Nomor 20 Tahun 2003 berfungsi mengembangkan kemampuan membentuk watak serta peradaban bangsa yang bermartabat dalam rangka mencerdaskan bangsa"
+      ],
+      "answer": "B",
+      "explanation": "Simpulan harus merangkum gagasan utama keseluruhan teks. Teks menekankan tiga fungsi: mengembangkan potensi peserta didik, melestarikan nilai yang baik, dan menyiapkan tenaga produktif.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Main Idea, Simpulan & Ringkasan",
+      "subtopic": "Simpulan",
+      "skills": [
+        "Menentukan simpulan teks",
+        "Mensintesis informasi dari beberapa paragraf",
+        "Membedakan simpulan dan detail"
+      ],
+      "skill_tree_ids": [
+        "LBI.CONCLUSION.TEXT"
+      ],
+      "prerequisites": [
+        "LBI.MAIN_IDEA.PARAGRAPH"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 2,
+      "reasoning": 3,
+      "calculation": 1,
+      "reading": 4,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "multi_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "reading_comprehension",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Memilih pernyataan yang benar tetapi hanya mewakili satu bagian teks."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_003",
+        "family": "text_conclusion",
+        "pattern": "Berikan teks informatif multi-paragraf lalu minta simpulan yang paling mewakili keseluruhan argumen.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "synthesize",
+          "infer_conclusion"
+        ],
+        "relationships": [
+          "supporting_points -> imply -> conclusion"
+        ],
+        "question_targets": [
+          "simpulan teks"
+        ],
+        "constraints": [
+          "simpulan tidak boleh menambahkan informasi baru",
+          "simpulan harus didukung oleh beberapa bagian teks"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Gunakan satu detail penting tetapi tidak mencakup keseluruhan teks.",
+          "Tambahkan informasi baru yang tidak ada dalam teks.",
+          "Gunakan kesimpulan yang terlalu sempit."
+        ]
+      },
+      "answer_logic": {
+        "method": "Gabungkan gagasan utama dan informasi pendukung dari seluruh teks.",
+        "formula": "",
+        "verification": [
+          "Teks menyebut pengembangan potensi peserta didik.",
+          "Teks menyebut pelestarian nilai.",
+          "Teks menyebut penyiapan tenaga produktif.",
+          "Opsi B mencakup ketiganya."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "conclusion",
+      "summary",
+      "reading-comprehension"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-004",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 283"
+    },
+    "content": {
+      "question": "Teks tentang perkembangan destinasi pariwisata Indonesia menyebutkan bahwa jumlah wisatawan mancanegara dan devisa meningkat dalam sepuluh tahun terakhir. Kesimpulan yang diperoleh dari paragraf tiga adalah....",
+      "options": [
+        "Perkembangan destinasi pariwisata tidak bergeser atau stasioner",
+        "Dari tahun 2002 sampai dengan tahun 2012 kinerja pariwisata terus meningkat",
+        "Perencanaan di tingkat provinsi harus sesuai realitas siklus hidup",
+        "Distribusi perkembangan pariwisata tidak merata",
+        "Siklus hidup memengaruhi perkembangan wisata"
+      ],
+      "answer": "B",
+      "explanation": "Paragraf ketiga menampilkan data jumlah wisatawan mancanegara dan devisa yang sama-sama meningkat dari 2002 ke 2012. Karena itu simpulan paragraf tersebut adalah kinerja pariwisata terus meningkat.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Main Idea, Simpulan & Ringkasan",
+      "subtopic": "Simpulan Paragraf",
+      "skills": [
+        "Menentukan simpulan paragraf",
+        "Menghubungkan data dan pernyataan",
+        "Membedakan isi paragraf dengan informasi paragraf lain"
+      ],
+      "skill_tree_ids": [
+        "LBI.CONCLUSION.PARAGRAPH"
+      ],
+      "prerequisites": [
+        "LBI.MAIN_IDEA.PARAGRAPH"
+      ]
+    },
+    "difficulty": {
+      "overall": 2,
+      "concept": 2,
+      "reasoning": 2,
+      "calculation": 1,
+      "reading": 3,
+      "time_pressure": 2
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "single_step",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "reading_comprehension",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 2,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Memilih informasi dari paragraf lain karena seluruh teks membahas perkembangan pariwisata."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_004",
+        "family": "paragraph_conclusion",
+        "pattern": "Berikan satu paragraf informatif dengan beberapa fakta lalu minta simpulan paragraf.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "synthesize",
+          "infer"
+        ],
+        "relationships": [
+          "paragraph_facts -> support -> paragraph_conclusion"
+        ],
+        "question_targets": [
+          "simpulan satu paragraf"
+        ],
+        "constraints": [
+          "jawaban harus merangkum paragraf yang ditunjuk",
+          "jangan mengambil informasi utama dari paragraf lain"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Ambil informasi dari paragraf lain.",
+          "Gunakan detail angka sebagai jawaban.",
+          "Gunakan topik umum teks sebagai jawaban."
+        ]
+      },
+      "answer_logic": {
+        "method": "Gabungkan fakta utama yang disajikan dalam paragraf ketiga.",
+        "formula": "",
+        "verification": [
+          "Wisatawan mancanegara meningkat.",
+          "Devisa sektor pariwisata meningkat.",
+          "Simpulan: kinerja pariwisata terus meningkat."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "paragraph-conclusion",
+      "main-idea",
+      "data-reading"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-005",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 284"
+    },
+    "content": {
+      "question": "Bacalah teks tentang pendidikan karakter dengan cermat. Manakah pertanyaan yang jawabannya terdapat dalam paragraf ke-2?",
+      "options": [
+        "Mengapa pendidikan karakter merupakan pendidikan budi pekerti?",
+        "Mengapa kecerdasan emosi penting dalam mempersiapkan masa depan?",
+        "Bagaimana pendidikan karakter yang sistematis dan berkelanjutan?",
+        "Bagaimana pendapat Lickona tentang aspek pendidikan karakter?",
+        "Siapa yang mengemukakan sembilan pilar karakter berasal dari nilai luhur universal?"
+      ],
+      "answer": "D",
+      "explanation": "Paragraf kedua memuat pendapat Lickona bahwa pendidikan karakter melibatkan aspek pengetahuan, perasaan, dan tindakan. Informasi tersebut menjawab pertanyaan pada opsi D.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Informasi Tersurat / Detail",
+      "subtopic": "Locating Detailed Information",
+      "skills": [
+        "Menemukan informasi spesifik",
+        "Mencocokkan pertanyaan dengan paragraf",
+        "Melakukan scanning terhadap teks"
+      ],
+      "skill_tree_ids": [
+        "LBI.DETAIL.LOCATION"
+      ],
+      "prerequisites": [
+        "LBI.READING.BASIC_COMPREHENSION"
+      ]
+    },
+    "difficulty": {
+      "overall": 2,
+      "concept": 2,
+      "reasoning": 2,
+      "calculation": 1,
+      "reading": 3,
+      "time_pressure": 2
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "data_interpretation",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "reading_comprehension",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 2,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": false,
+      "common_trap": "Memilih pertanyaan yang jawabannya memang ada dalam teks tetapi berada di paragraf lain."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_005",
+        "family": "paragraph_specific_information",
+        "pattern": "Tunjuk satu paragraf tertentu lalu tanyakan informasi yang secara eksplisit terdapat di dalamnya.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "locate",
+          "match"
+        ],
+        "relationships": [
+          "target_paragraph -> contains -> specific_fact"
+        ],
+        "question_targets": [
+          "informasi dalam paragraf tertentu"
+        ],
+        "constraints": [
+          "satu opsi harus dapat ditemukan di paragraf target",
+          "distraktor dapat berasal dari paragraf lain"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Gunakan fakta dari paragraf lain.",
+          "Gunakan kesimpulan yang tidak tersurat.",
+          "Gunakan informasi yang mirip tetapi tidak tepat."
+        ]
+      },
+      "answer_logic": {
+        "method": "Cari fakta pada paragraf yang disebutkan lalu cocokkan dengan pilihan.",
+        "formula": "",
+        "verification": [
+          "Paragraf kedua memuat pendapat Lickona mengenai aspek pendidikan karakter.",
+          "Opsi D sesuai dengan informasi tersebut."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "detail-information",
+      "scanning",
+      "paragraph-location"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-006",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 288"
+    },
+    "content": {
+      "question": "Bacalah kutipan tentang insiden kapal nelayan Vietnam. Informasi yang dapat diperoleh dari kutipan tersebut adalah....",
+      "options": [
+        "Stasiun televisi Vietnam menayangkan rekaman video yang memperlihatkan sebuah kapal besar berbendera Tiongkok berada di belakang dua kapal nelayan Vietnam berukuran lebih kecil.",
+        "Sebuah kapal besar berbendera Tiongkok berada di belakang dua kapal nelayan Vietnam berukuran lebih kecil.",
+        "Dalam tayangan tampak terjadi tabrakan kemudian salah satu dari dua kapal nelayan Vietnam berukuran lebih kecil tenggelam.",
+        "Insiden terjadi pada 26 Mei lalu, sebuah kapal nelayan Vietnam dilaporkan tenggelam tak jauh dari anjungan minyak Tiongkok itu.",
+        "Insiden terjadi 26 Mei lalu, ketika sebuah kapal nelayan Vietnam dilaporkan tenggelam tak jauh dari anjungan minyak Tiongkok itu."
+      ],
+      "answer": "A",
+      "explanation": "Pilihan A paling tepat karena merangkum informasi yang disebutkan dalam kutipan secara lengkap. Pilihan lain hanya mengambil sebagian detail dari informasi tersebut.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Informasi Tersurat / Detail",
+      "subtopic": "Stated Information",
+      "skills": [
+        "Menemukan informasi tersurat",
+        "Mencocokkan isi kutipan dengan pilihan",
+        "Membedakan informasi lengkap dan sebagian"
+      ],
+      "skill_tree_ids": [
+        "LBI.DETAIL.STATED_INFORMATION"
+      ],
+      "prerequisites": [
+        "LBI.READING.BASIC_COMPREHENSION"
+      ]
+    },
+    "difficulty": {
+      "overall": 2,
+      "concept": 2,
+      "reasoning": 2,
+      "calculation": 1,
+      "reading": 3,
+      "time_pressure": 2
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "comparison",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "reading_comprehension",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 2,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": false,
+      "common_trap": "Memilih informasi yang benar tetapi hanya merupakan potongan dari kutipan."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_006",
+        "family": "stated_information",
+        "pattern": "Berikan kutipan informatif lalu minta informasi yang dapat diperoleh secara langsung dari kutipan.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "locate",
+          "match",
+          "synthesize"
+        ],
+        "relationships": [
+          "text -> contains -> stated_facts"
+        ],
+        "question_targets": [
+          "informasi tersurat"
+        ],
+        "constraints": [
+          "jawaban harus didukung langsung oleh teks",
+          "distraktor tidak boleh menambahkan informasi baru"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Ambil hanya sebagian informasi.",
+          "Ubah hubungan antarperistiwa.",
+          "Tambahkan detail yang tidak ada dalam teks."
+        ]
+      },
+      "answer_logic": {
+        "method": "Bandingkan setiap pilihan dengan informasi eksplisit yang terdapat pada kutipan.",
+        "formula": "",
+        "verification": [
+          "Kutipan menyebut stasiun televisi Vietnam menayangkan rekaman.",
+          "Rekaman memperlihatkan kapal besar Tiongkok di belakang dua kapal nelayan Vietnam.",
+          "Opsi A paling lengkap dan sesuai."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "stated-information",
+      "detail",
+      "reading-comprehension"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-007",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 289"
+    },
+    "content": {
+      "question": "Bacalah teks biografi Adam Osborne. Keistimewaan tokoh berdasarkan teks di atas adalah....",
+      "options": [
+        "Memiliki keoptimisan bahwa perusahaan komputer akan mengikuti konsep idenya",
+        "Lulus dari Universitas Birmingham, Inggris, sebagai sarjana muda terbaik di bidang teknik kimia",
+        "Ia mendapatkan pekerjaan barunya sebagai penulis buku panduan bagi mikroprosesor milik sebuah perusahaan komputer",
+        "Ia pindah ke Amerika Serikat dan menyelesaikan pendidikannya di Delaware dan memperoleh gelar doktor di bidang teknik kimia",
+        "Seorang penemu dan pembuat personal computer (PC) yang jenius"
+      ],
+      "answer": "E",
+      "explanation": "Keistimewaan tokoh adalah hal yang membedakannya dari orang lain. Teks menegaskan Adam Osborne sebagai seorang penemu dan pembuat personal computer (PC) yang jenius.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Informasi Tersurat / Detail",
+      "subtopic": "Specific Characteristic / Trait",
+      "skills": [
+        "Menemukan karakteristik tokoh",
+        "Memilih informasi yang paling menonjol",
+        "Membedakan keistimewaan dan fakta biografis biasa"
+      ],
+      "skill_tree_ids": [
+        "LBI.DETAIL.CHARACTERISTIC"
+      ],
+      "prerequisites": [
+        "LBI.DETAIL.STATED_INFORMATION"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 2,
+      "reasoning": 3,
+      "calculation": 1,
+      "reading": 4,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "comparison",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "reading_comprehension",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 2,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Memilih fakta biografis yang benar tetapi bukan keistimewaan utama tokoh."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_007",
+        "family": "biographical_characteristic",
+        "pattern": "Berikan biografi singkat lalu tanyakan ciri atau keistimewaan yang paling menonjol.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "identify",
+          "compare_relevance"
+        ],
+        "relationships": [
+          "biographical_facts -> support -> characteristic"
+        ],
+        "question_targets": [
+          "keistimewaan tokoh"
+        ],
+        "constraints": [
+          "jawaban harus didukung beberapa bagian teks",
+          "distraktor berupa fakta benar tetapi kurang menonjol"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Gunakan fakta biografis biasa.",
+          "Gunakan prestasi kecil sebagai pengecoh.",
+          "Gunakan interpretasi yang terlalu umum."
+        ]
+      },
+      "answer_logic": {
+        "method": "Tentukan fakta atau karakteristik yang paling membedakan tokoh berdasarkan keseluruhan biografi.",
+        "formula": "",
+        "verification": [
+          "Teks menyebut kontribusi Osborne pada awal pembuatan PC.",
+          "Pembahasan sumber menyatakan jawaban E."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "detail",
+      "biography",
+      "characteristic"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-008",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 283-284"
+    },
+    "content": {
+      "question": "Berdasarkan bacaan tentang perkembangan destinasi pariwisata Indonesia, pernyataan berikut ini yang benar adalah....",
+      "options": [
+        "Perkembangan wisata di Indonesia selalu positif vertikal.",
+        "Jumlah wisatawan mancanegara naik, akan tetapi devisa negara turun.",
+        "Pulau Bali dan Pulau Jawa secara geografis menjadi konsentrasi wisatawan hingga saat ini.",
+        "Perumusan pengembangan destinasi tidak perlu dikaji ulang kembali.",
+        "Siklus hidup sebagian destinasi wisata mengalami kenaikan pada fase eksplorasi."
+      ],
+      "answer": "C",
+      "explanation": "Paragraf terakhir menyatakan bahwa secara geografis konsentrasi wisatawan tetap berada di Pulau Jawa dan Pulau Bali. Pilihan lain bertentangan atau tidak didukung oleh teks.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Informasi Tersurat / Detail",
+      "subtopic": "Text-Based Statement Validation",
+      "skills": [
+        "Memvalidasi pernyataan berdasarkan teks",
+        "Mencocokkan klaim dengan informasi bacaan",
+        "Mengeliminasi pernyataan yang bertentangan"
+      ],
+      "skill_tree_ids": [
+        "LBI.DETAIL.STATEMENT_VALIDATION"
+      ],
+      "prerequisites": [
+        "LBI.DETAIL.STATED_INFORMATION"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 2,
+      "reasoning": 3,
+      "calculation": 1,
+      "reading": 4,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "comparison",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "reading_comprehension",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": false,
+      "common_trap": "Memilih pernyataan yang tampak masuk akal tetapi tidak didukung oleh bacaan."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_008",
+        "family": "statement_validation_from_text",
+        "pattern": "Berikan teks informatif dan beberapa klaim, lalu tentukan klaim yang paling sesuai dengan teks.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "compare",
+          "validate"
+        ],
+        "relationships": [
+          "claim <-> textual_evidence"
+        ],
+        "question_targets": [
+          "pernyataan yang benar berdasarkan teks"
+        ],
+        "constraints": [
+          "tepat satu opsi harus sepenuhnya didukung",
+          "distraktor harus mengubah atau bertentangan dengan informasi"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Balik hubungan sebab-akibat.",
+          "Ubah angka atau fakta.",
+          "Gunakan generalisasi berlebihan."
+        ]
+      },
+      "answer_logic": {
+        "method": "Cocokkan setiap pernyataan dengan fakta yang terdapat di dalam bacaan.",
+        "formula": "",
+        "verification": [
+          "Teks menyatakan konsentrasi wisatawan berada di Pulau Jawa dan Bali.",
+          "Opsi C sesuai dengan pernyataan tersebut."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "detail",
+      "statement-validation",
+      "reading-comprehension"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-009",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 285"
+    },
+    "content": {
+      "question": "Berdasarkan teks tentang pendidikan karakter, apa kelemahan isi paragraf ke-2?",
+      "options": [
+        "Tidak ada hubungan antara penjelasan kecerdasan emosi (kalimat 9) dengan sembilan pilar karakter (kalimat 10)",
+        "Plus pada pendidikan budi pekerti (kalimat 6) tidak dijelaskan secara rinci pada bagian berikutnya",
+        "Penjelasan tentang pendidikan sebagai sarana transfer ilmu (kalimat 3) bertentangan dengan konsep pendidikan (kalimat 2)",
+        "Tidak ada hubungan antara ketiga aspek yang dimaksud Lickona (kalimat 7) dengan nilai plus pada pendidikan budi pekerti",
+        "Penjelasan tentang kecerdasan emosi (kalimat 8) tidak berkaitan dengan pendidikan karakter (kalimat 7)"
+      ],
+      "answer": "A",
+      "explanation": "Kalimat 10 membahas sembilan pilar karakter, tetapi penjelasan sebelumnya berakhir pada kecerdasan emosi. Hubungan antara kedua bagian tersebut tidak padu.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Struktur & Kepaduan Paragraf",
+      "subtopic": "Paragraph Coherence",
+      "skills": [
+        "Mengevaluasi kepaduan paragraf",
+        "Menemukan hubungan antarkalimat",
+        "Mengidentifikasi bagian yang tidak relevan"
+      ],
+      "skill_tree_ids": [
+        "LBI.STRUCTURE.COHERENCE"
+      ],
+      "prerequisites": [
+        "LBI.MAIN_IDEA.PARAGRAPH"
+      ]
+    },
+    "difficulty": {
+      "overall": 4,
+      "concept": 3,
+      "reasoning": 4,
+      "calculation": 1,
+      "reading": 4,
+      "time_pressure": 4
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "logical_deduction",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "critical_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Menganggap setiap kalimat yang benar secara faktual otomatis padu dengan paragraf."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_009",
+        "family": "paragraph_coherence",
+        "pattern": "Berikan paragraf dengan satu bagian yang tidak koheren, lalu tanyakan kelemahan atau bagian yang mengganggu kepaduan.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "track_topic",
+          "evaluate_coherence"
+        ],
+        "relationships": [
+          "sentence -> supports -> paragraph_idea"
+        ],
+        "question_targets": [
+          "kelemahan paragraf"
+        ],
+        "constraints": [
+          "satu pilihan harus menunjukkan hubungan ide yang paling lemah"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Gunakan kalimat yang benar tetapi tetap relevan.",
+          "Gunakan hubungan yang terlalu jauh.",
+          "Gunakan masalah yang sebenarnya bukan masalah koherensi."
+        ]
+      },
+      "answer_logic": {
+        "method": "Lacak hubungan ide dari setiap kalimat lalu cari bagian yang tidak terhubung secara logis.",
+        "formula": "",
+        "verification": [
+          "Kalimat 10 tidak memiliki hubungan yang jelas dengan kecerdasan emosi pada kalimat 9.",
+          "Sumber menyatakan jawaban A."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "coherence",
+      "paragraph-structure",
+      "sentence-relation"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-010",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 287"
+    },
+    "content": {
+      "question": "Bacalah paragraf tentang fungsi pendidikan pada teks. Agar menjadi paragraf yang baik, kalimat penutup paragraf ke-2 yang paling sesuai adalah....",
+      "options": [
+        "Dengan demikian, fungsi pendidikan selain untuk mencerdaskan bangsa, menyiapkan tenaga kerja produktif, juga membentuk watak.",
+        "Dengan demikian, fungsi pendidikan adalah menjadikan siswa terampil dan siap menjadi tenaga kerja produktif dan menjunjung tinggi nama bangsa.",
+        "Oleh karena itu, tugas pendidikan membentuk siswa menjadi warga negara yang berkepribadian luhur, beriman, dan bertaqwa.",
+        "Karena itulah, fungsi utama pendidikan adalah membentuk siswa yang cerdas dan terampil dalam menghadapi semua permasalahan.",
+        "Oleh sebab itu, sebagai pendidik, guru harus selalu siap berkorban untuk membentuk anak bangsa menjadi manusia yang berguna."
+      ],
+      "answer": "A",
+      "explanation": "Kalimat penutup harus merangkum pembahasan paragraf tentang fungsi pendidikan. Opsi A paling sesuai karena menyatukan gagasan mencerdaskan bangsa, menyiapkan tenaga produktif, dan membentuk watak.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Struktur & Kepaduan Paragraf",
+      "subtopic": "Closing Sentence",
+      "skills": [
+        "Menentukan kalimat penutup",
+        "Menjaga kesatuan gagasan paragraf",
+        "Menghubungkan kalimat penutup dengan isi sebelumnya"
+      ],
+      "skill_tree_ids": [
+        "LBI.STRUCTURE.CLOSING_SENTENCE"
+      ],
+      "prerequisites": [
+        "LBI.MAIN_IDEA.PARAGRAPH",
+        "LBI.STRUCTURE.COHERENCE"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 3,
+      "reasoning": 3,
+      "calculation": 1,
+      "reading": 4,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "comparison",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "critical_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Memilih kalimat yang terdengar baik tetapi tidak merangkum isi paragraf."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_010",
+        "family": "paragraph_closing_sentence",
+        "pattern": "Berikan paragraf yang belum memiliki kalimat penutup lalu pilih kalimat yang paling padu sebagai penutup.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "summarize",
+          "coherence_check"
+        ],
+        "relationships": [
+          "paragraph_content -> summarized_by -> closing_sentence"
+        ],
+        "question_targets": [
+          "kalimat penutup paling sesuai"
+        ],
+        "constraints": [
+          "penutup harus mengikuti ide paragraf",
+          "tidak boleh memperkenalkan topik baru"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Tambahkan topik baru.",
+          "Fokus pada satu detail.",
+          "Gunakan kalimat yang normatif tetapi tidak terhubung."
+        ]
+      },
+      "answer_logic": {
+        "method": "Cari opsi yang merangkum isi paragraf dan mempertahankan kesatuan gagasan.",
+        "formula": "",
+        "verification": [
+          "Paragraf membahas fungsi pendidikan dalam mencerdaskan, menyiapkan tenaga kerja, dan membentuk watak.",
+          "Opsi A mencakup ketiga fungsi tersebut."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "coherence",
+      "closing-sentence",
+      "paragraph-structure"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-011",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 288"
+    },
+    "content": {
+      "question": "Bacalah paragraf tentang anak yang menjadi vegetarian. Kalimat yang membuat paragraf di atas menjadi kurang padu adalah kalimat....",
+      "options": [
+        "Bagi orang dewasa, yang telah melewati masa pertumbuhan, menjadi vegetarian tidak terlalu menjadi masalah.",
+        "Namun, bagaimana jika anak yang masih dalam masa tumbuh kembang menjadi vegetarian?",
+        "Seperti diketahui, protein hewani berperan cukup besar dalam proses tumbuh kembang anak.",
+        "Tak jarang pula, orang tua yang mengarahkan anaknya agar ikut menjadi vegetarian.",
+        "Apabila anak yang masih dalam masa tumbuh kembang menjadi vegetarian, pertumbuhannya bisa terganggu."
+      ],
+      "answer": "D",
+      "explanation": "Paragraf berfokus pada dampak vegetarian terhadap anak dalam masa pertumbuhan. Kalimat D tidak memperkuat alur penjelasan tentang dampak tersebut sehingga membuat paragraf kurang padu.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Struktur & Kepaduan Paragraf",
+      "subtopic": "Sentence Relevance",
+      "skills": [
+        "Menentukan kalimat tidak relevan",
+        "Mengevaluasi kesatuan ide",
+        "Menganalisis hubungan antarkalimat"
+      ],
+      "skill_tree_ids": [
+        "LBI.STRUCTURE.RELEVANCE"
+      ],
+      "prerequisites": [
+        "LBI.STRUCTURE.COHERENCE"
+      ]
+    },
+    "difficulty": {
+      "overall": 3,
+      "concept": 2,
+      "reasoning": 3,
+      "calculation": 1,
+      "reading": 4,
+      "time_pressure": 3
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "logical_deduction",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "critical_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 3,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Mengira semua kalimat yang masih berkaitan dengan topik umum pasti relevan dengan gagasan utama paragraf."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_011",
+        "family": "irrelevant_sentence",
+        "pattern": "Berikan paragraf dengan satu kalimat yang tidak mendukung ide utama lalu tentukan kalimat tersebut.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "track_topic",
+          "evaluate_relevance"
+        ],
+        "relationships": [
+          "supporting_sentence -> supports -> main_topic"
+        ],
+        "question_targets": [
+          "kalimat yang mengganggu kepaduan"
+        ],
+        "constraints": [
+          "kalimat pengecoh boleh berkaitan secara umum tetapi tidak mendukung alur utama"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Gunakan kalimat yang masih bertema sama.",
+          "Letakkan kalimat pengecoh di tengah alur logis.",
+          "Gunakan kalimat yang faktual tetapi tidak relevan."
+        ]
+      },
+      "answer_logic": {
+        "method": "Identifikasi ide utama lalu periksa apakah setiap kalimat mendukung ide tersebut.",
+        "formula": "",
+        "verification": [
+          "Kalimat B, C, dan E membahas anak, masa tumbuh kembang, dan dampak vegetarian.",
+          "Kalimat D tidak memperkuat fokus tersebut.",
+          "Sumber menyatakan jawaban D."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "coherence",
+      "sentence-relevance",
+      "paragraph-structure"
+    ]
+  },
+  {
+    "id": "LBI-WANGSIT-012",
+    "source": {
+      "exam": "SNBT",
+      "year": 2024,
+      "session": "Wangsit",
+      "section": "LBI",
+      "source_type": "prep_book",
+      "source_reference": "Wangsit Pawang Soal Sulit HOTS SNBT 2024, Literasi Bahasa Indonesia, 289"
+    },
+    "content": {
+      "question": "Bacalah kalimat-kalimat berikut. (1) Usia dini merupakan masa kritis yang keberhasilannya sangat menentukan kualitas anak didik di masa dewasa. (2) Anak yang ditelantarkan akan kurang asupan gizi, tidak mendapat perlindungan kesehatan, dan tidak mendapat pengasuhan yang benar dan stimulan pendidikan. (3) Kebutuhan tumbuh kembang yang mencakup gizi, kesehatan, dan pendidikan merupakan satu kesatuan yang tidak bisa dilepaskan dan anak tidak boleh ditelantarkan. (4) Jika terlantar seperti ini, sekalipun merupakan anak orang berada bahkan kaya raya, perkembangan kecerdasannya bisa tidak optimal. (5) Mendidik anak dalam usia dini bukanlah hal yang gampang. Urutan kalimat-kalimat tersebut dalam paragraf yang padu adalah....",
+      "options": [
+        "(1)-(2)-(3)-(4)-(5)",
+        "(1)-(3)-(5)-(4)-(2)",
+        "(5)-(1)-(3)-(2)-(4)",
+        "(5)-(1)-(4)-(3)-(2)",
+        "(4)-(3)-(2)-(1)-(5)"
+      ],
+      "answer": "C",
+      "explanation": "Kalimat (5) menjadi pembuka umum, dilanjutkan kalimat (1) yang menjelaskan pentingnya usia dini. Kalimat (3) menjelaskan kebutuhan tumbuh kembang, lalu kalimat (2) dan (4) mengembangkan akibat penelantaran.",
+      "language": "id"
+    },
+    "classification": {
+      "domain": "Literasi Bahasa Indonesia",
+      "topic": "Struktur & Kepaduan Paragraf",
+      "subtopic": "Sentence Ordering",
+      "skills": [
+        "Menyusun urutan kalimat",
+        "Menentukan hubungan antarkalimat",
+        "Menggunakan penanda rujukan dan hubungan logis"
+      ],
+      "skill_tree_ids": [
+        "LBI.STRUCTURE.SENTENCE_ORDER"
+      ],
+      "prerequisites": [
+        "LBI.STRUCTURE.COHERENCE"
+      ]
+    },
+    "difficulty": {
+      "overall": 4,
+      "concept": 3,
+      "reasoning": 4,
+      "calculation": 1,
+      "reading": 4,
+      "time_pressure": 4
+    },
+    "question_type": {
+      "format": "multiple_choice",
+      "format_possible_values": [
+        "multiple_choice",
+        "fill_blank"
+      ],
+      "reasoning_type": "logical_deduction",
+      "reasoning_type_possible_values": [
+        "direct",
+        "single_step",
+        "multi_step",
+        "comparison",
+        "logical_deduction",
+        "pattern_recognition",
+        "case_analysis",
+        "data_interpretation",
+        "spatial_reasoning",
+        "conditional_reasoning"
+      ],
+      "calculation_required": false,
+      "reading_required": true,
+      "visual_required": false
+    },
+    "cognitive": {
+      "primary_skill": "logical_reasoning",
+      "primary_skill_possible_values": [
+        "quantitative_reasoning",
+        "logical_reasoning",
+        "critical_reasoning",
+        "verbal_reasoning",
+        "data_interpretation",
+        "reading_comprehension",
+        "pattern_recognition",
+        "spatial_reasoning"
+      ],
+      "reasoning_steps": 4,
+      "requires_formula": false,
+      "requires_comparison": true,
+      "requires_inference": true,
+      "common_trap": "Menyusun berdasarkan urutan kalimat secara lokal tanpa memperhatikan hubungan rujukan dan sebab-akibat."
+    },
+    "generation": {
+      "generatable": true,
+      "blueprint": {
+        "id": "LBI_BP_012",
+        "family": "sentence_ordering",
+        "pattern": "Acak beberapa kalimat dari sebuah paragraf lalu tentukan urutan yang paling padu.",
+        "entities": [
+          "text",
+          "question",
+          "options",
+          "answer"
+        ],
+        "operations": [
+          "sequence",
+          "coherence_check",
+          "relationship_detection"
+        ],
+        "relationships": [
+          "topic_sentence -> introduces -> topic",
+          "supporting_sentences -> elaborate -> topic",
+          "cause -> precedes -> effect"
+        ],
+        "question_targets": [
+          "urutan kalimat yang padu"
+        ],
+        "constraints": [
+          "urutan harus menghasilkan paragraf yang koheren",
+          "rujukan antarkalimat harus logis"
+        ],
+        "difficulty_scaling": {
+          "easy": "Teks lebih pendek dan informasi utama lebih eksplisit.",
+          "medium": "Teks lebih panjang dengan beberapa informasi pendukung.",
+          "hard": "Memerlukan sintesis atau evaluasi beberapa bagian teks."
+        },
+        "distractor_strategy": [
+          "Tukar kalimat topik dan penjelas.",
+          "Putus hubungan sebab-akibat.",
+          "Letakkan kalimat yang mengandung rujukan sebelum acuannya."
+        ]
+      },
+      "answer_logic": {
+        "method": "Tentukan kalimat pembuka, lalu susun penjelasan dan akibat berdasarkan hubungan logis antarkalimat.",
+        "formula": "",
+        "verification": [
+          "Urutan sumber yang benar adalah (5)-(1)-(3)-(2)-(4).",
+          "Urutan tersebut menghasilkan alur umum -> pentingnya usia dini -> kebutuhan tumbuh kembang -> penelantaran -> dampak."
+        ]
+      }
+    },
+    "quality": {
+      "verified": true,
+      "verification_method": "rule_based",
+      "answer_confidence": 0.99,
+      "explanation_quality": 0.98
+    },
+    "tags": [
+      "lbi",
+      "coherence",
+      "sentence-order",
+      "paragraph-structure"
+    ]
+  }
+]
